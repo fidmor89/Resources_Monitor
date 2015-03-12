@@ -1,0 +1,204 @@
+\hypertarget{class_windows_forms_application1_1_1_form1}{}\section{Windows\+Forms\+Application1.\+Form1 Class Reference}
+\label{class_windows_forms_application1_1_1_form1}\index{Windows\+Forms\+Application1.\+Form1@{Windows\+Forms\+Application1.\+Form1}}
+Inheritance diagram for Windows\+Forms\+Application1.\+Form1\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_windows_forms_application1_1_1_form1}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_windows_forms_application1_1_1_form1_a69c9068cd58521646d5e961a8b88a020}{Form1} ()
+\begin{DoxyCompactList}\small\item\em Constructor de la clase de vista inicializa componentes y controlador de vista (M\+V\+C) //llama funcion para el estilo de las graficas \end{DoxyCompactList}\item 
+void \hyperlink{class_windows_forms_application1_1_1_form1_a4fda0d42358d44b8d3912a8e4d20e914}{Set\+Ram\+Virtual} (Double total, Double usada, Double porcentaje)
+\begin{DoxyCompactList}\small\item\em metodo auxiliar para actualizar interfaz de usuario. verifica si fue invocada por otro thread y de ser asi obtiene la firma del thread de de U\+X y se invoca a si mismo por medio del delegate actualiza grafica y labels necesarios \end{DoxyCompactList}\item 
+void \hyperlink{class_windows_forms_application1_1_1_form1_afac9f5fe44220f30b2e8ec3750abd874}{Set\+Ram\+Fisica} (Double total, Double usada, Double porcentaje)
+\begin{DoxyCompactList}\small\item\em metodo auxiliar para actualizar interfaz de usuario. verifica si fue invocada por otro thread y de ser asi obtiene la firma del thread de de U\+X y se invoca a si mismo por medio del delegate actualiza grafica y labels necesarios \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \hyperlink{class_windows_forms_application1_1_1_form1_a634a80ac7348fe429fa032d0edffee00}{Dispose} (bool disposing)
+\begin{DoxyCompactList}\small\item\em Clean up any resources being used. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Double \hyperlink{class_windows_forms_application1_1_1_form1_ae445eb3f9ea10205e542590e77476e47}{cpu\+Usage}\hspace{0.3cm}{\ttfamily  \mbox{[}set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em metodo para asignar el uso de C\+P\+U redondea el valor a dos digitos hacia arriba y utiliza un metodo auxiliar para asignarlo. \end{DoxyCompactList}\item 
+Double \hyperlink{class_windows_forms_application1_1_1_form1_af1ec7463a818d88cbf71689bbd444ab8}{cpu\+Idle}\hspace{0.3cm}{\ttfamily  \mbox{[}set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em metodo para asignar el del C\+P\+U que no esta uso. redondea el valor a dos digitos haci a arriba y utiliza un metodo auxiliar para asignarlo. \end{DoxyCompactList}\item 
+Double \hyperlink{class_windows_forms_application1_1_1_form1_a21165d5313e265bc99107b4bcb60cdad}{disk\+Write}\hspace{0.3cm}{\ttfamily  \mbox{[}set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em metodo para asignar la velocidad de escritrua del disco. redondea el valor a dos digitos hacia arriba y utiliza un metodo auxiliar para asignarlo. \end{DoxyCompactList}\item 
+Double \hyperlink{class_windows_forms_application1_1_1_form1_a99946d55dca3d347b344e9810b15a6d2}{disk\+Reads}\hspace{0.3cm}{\ttfamily  \mbox{[}set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em metodo para asignar la velocidad de lectura del disco. Redondea el valor a dos digitos hacia arriba y utiliza un metodo auxiliar para asignarlo. \end{DoxyCompactList}\item 
+Double \hyperlink{class_windows_forms_application1_1_1_form1_a50fa7fa857eb7587ab11e7b2c502f240}{net\+Outs}\hspace{0.3cm}{\ttfamily  \mbox{[}set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Metodo para asignar la velocidad de bites enviados por red redondea el valor a dos digitos hacia arriba y utiliza un metodo auxiliar para asignarlo. \end{DoxyCompactList}\item 
+Double \hyperlink{class_windows_forms_application1_1_1_form1_ad6c6884d7846134ca9a860197d7ea0b6}{net\+Ins}\hspace{0.3cm}{\ttfamily  \mbox{[}set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Metodo para asignar la velocidad de bites recibidos por red redondea el valor a dos digitos hacia arriba y utiliza un metodo auxiliar para asignarlo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 16 of file view.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_windows_forms_application1_1_1_form1_a69c9068cd58521646d5e961a8b88a020}{}\index{Windows\+Forms\+Application1\+::\+Form1@{Windows\+Forms\+Application1\+::\+Form1}!Form1@{Form1}}
+\index{Form1@{Form1}!Windows\+Forms\+Application1\+::\+Form1@{Windows\+Forms\+Application1\+::\+Form1}}
+\subsubsection[{Form1}]{\setlength{\rightskip}{0pt plus 5cm}Windows\+Forms\+Application1.\+Form1.\+Form1 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_windows_forms_application1_1_1_form1_a69c9068cd58521646d5e961a8b88a020}
+
+
+Constructor de la clase de vista inicializa componentes y controlador de vista (M\+V\+C) //llama funcion para el estilo de las graficas 
+
+
+
+Definition at line 25 of file view.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_windows_forms_application1_1_1_form1_a634a80ac7348fe429fa032d0edffee00}{}\index{Windows\+Forms\+Application1\+::\+Form1@{Windows\+Forms\+Application1\+::\+Form1}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!Windows\+Forms\+Application1\+::\+Form1@{Windows\+Forms\+Application1\+::\+Form1}}
+\subsubsection[{Dispose}]{\setlength{\rightskip}{0pt plus 5cm}override void Windows\+Forms\+Application1.\+Form1.\+Dispose (
+\begin{DoxyParamCaption}
+\item[{bool}]{disposing}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{class_windows_forms_application1_1_1_form1_a634a80ac7348fe429fa032d0edffee00}
+
+
+Clean up any resources being used. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em disposing} & true if managed resources should be disposed; otherwise, false.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 14 of file view.\+Designer.\+cs.
+
+\hypertarget{class_windows_forms_application1_1_1_form1_afac9f5fe44220f30b2e8ec3750abd874}{}\index{Windows\+Forms\+Application1\+::\+Form1@{Windows\+Forms\+Application1\+::\+Form1}!Set\+Ram\+Fisica@{Set\+Ram\+Fisica}}
+\index{Set\+Ram\+Fisica@{Set\+Ram\+Fisica}!Windows\+Forms\+Application1\+::\+Form1@{Windows\+Forms\+Application1\+::\+Form1}}
+\subsubsection[{Set\+Ram\+Fisica}]{\setlength{\rightskip}{0pt plus 5cm}void Windows\+Forms\+Application1.\+Form1.\+Set\+Ram\+Fisica (
+\begin{DoxyParamCaption}
+\item[{Double}]{total, }
+\item[{Double}]{usada, }
+\item[{Double}]{porcentaje}
+\end{DoxyParamCaption}
+)}\label{class_windows_forms_application1_1_1_form1_afac9f5fe44220f30b2e8ec3750abd874}
+
+
+metodo auxiliar para actualizar interfaz de usuario. verifica si fue invocada por otro thread y de ser asi obtiene la firma del thread de de U\+X y se invoca a si mismo por medio del delegate actualiza grafica y labels necesarios 
+
+
+\begin{DoxyParams}{Parameters}
+{\em text} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 581 of file view.\+cs.
+
+\hypertarget{class_windows_forms_application1_1_1_form1_a4fda0d42358d44b8d3912a8e4d20e914}{}\index{Windows\+Forms\+Application1\+::\+Form1@{Windows\+Forms\+Application1\+::\+Form1}!Set\+Ram\+Virtual@{Set\+Ram\+Virtual}}
+\index{Set\+Ram\+Virtual@{Set\+Ram\+Virtual}!Windows\+Forms\+Application1\+::\+Form1@{Windows\+Forms\+Application1\+::\+Form1}}
+\subsubsection[{Set\+Ram\+Virtual}]{\setlength{\rightskip}{0pt plus 5cm}void Windows\+Forms\+Application1.\+Form1.\+Set\+Ram\+Virtual (
+\begin{DoxyParamCaption}
+\item[{Double}]{total, }
+\item[{Double}]{usada, }
+\item[{Double}]{porcentaje}
+\end{DoxyParamCaption}
+)}\label{class_windows_forms_application1_1_1_form1_a4fda0d42358d44b8d3912a8e4d20e914}
+
+
+metodo auxiliar para actualizar interfaz de usuario. verifica si fue invocada por otro thread y de ser asi obtiene la firma del thread de de U\+X y se invoca a si mismo por medio del delegate actualiza grafica y labels necesarios 
+
+
+\begin{DoxyParams}{Parameters}
+{\em text} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 530 of file view.\+cs.
+
+
+
+\subsection{Property Documentation}
+\hypertarget{class_windows_forms_application1_1_1_form1_af1ec7463a818d88cbf71689bbd444ab8}{}\index{Windows\+Forms\+Application1\+::\+Form1@{Windows\+Forms\+Application1\+::\+Form1}!cpu\+Idle@{cpu\+Idle}}
+\index{cpu\+Idle@{cpu\+Idle}!Windows\+Forms\+Application1\+::\+Form1@{Windows\+Forms\+Application1\+::\+Form1}}
+\subsubsection[{cpu\+Idle}]{\setlength{\rightskip}{0pt plus 5cm}Double Windows\+Forms\+Application1.\+Form1.\+cpu\+Idle\hspace{0.3cm}{\ttfamily [set]}}\label{class_windows_forms_application1_1_1_form1_af1ec7463a818d88cbf71689bbd444ab8}
+
+
+metodo para asignar el del C\+P\+U que no esta uso. redondea el valor a dos digitos haci a arriba y utiliza un metodo auxiliar para asignarlo. 
+
+
+
+Definition at line 145 of file view.\+cs.
+
+\hypertarget{class_windows_forms_application1_1_1_form1_ae445eb3f9ea10205e542590e77476e47}{}\index{Windows\+Forms\+Application1\+::\+Form1@{Windows\+Forms\+Application1\+::\+Form1}!cpu\+Usage@{cpu\+Usage}}
+\index{cpu\+Usage@{cpu\+Usage}!Windows\+Forms\+Application1\+::\+Form1@{Windows\+Forms\+Application1\+::\+Form1}}
+\subsubsection[{cpu\+Usage}]{\setlength{\rightskip}{0pt plus 5cm}Double Windows\+Forms\+Application1.\+Form1.\+cpu\+Usage\hspace{0.3cm}{\ttfamily [set]}}\label{class_windows_forms_application1_1_1_form1_ae445eb3f9ea10205e542590e77476e47}
+
+
+metodo para asignar el uso de C\+P\+U redondea el valor a dos digitos hacia arriba y utiliza un metodo auxiliar para asignarlo. 
+
+
+
+Definition at line 131 of file view.\+cs.
+
+\hypertarget{class_windows_forms_application1_1_1_form1_a99946d55dca3d347b344e9810b15a6d2}{}\index{Windows\+Forms\+Application1\+::\+Form1@{Windows\+Forms\+Application1\+::\+Form1}!disk\+Reads@{disk\+Reads}}
+\index{disk\+Reads@{disk\+Reads}!Windows\+Forms\+Application1\+::\+Form1@{Windows\+Forms\+Application1\+::\+Form1}}
+\subsubsection[{disk\+Reads}]{\setlength{\rightskip}{0pt plus 5cm}Double Windows\+Forms\+Application1.\+Form1.\+disk\+Reads\hspace{0.3cm}{\ttfamily [set]}}\label{class_windows_forms_application1_1_1_form1_a99946d55dca3d347b344e9810b15a6d2}
+
+
+metodo para asignar la velocidad de lectura del disco. Redondea el valor a dos digitos hacia arriba y utiliza un metodo auxiliar para asignarlo. 
+
+
+
+Definition at line 171 of file view.\+cs.
+
+\hypertarget{class_windows_forms_application1_1_1_form1_a21165d5313e265bc99107b4bcb60cdad}{}\index{Windows\+Forms\+Application1\+::\+Form1@{Windows\+Forms\+Application1\+::\+Form1}!disk\+Write@{disk\+Write}}
+\index{disk\+Write@{disk\+Write}!Windows\+Forms\+Application1\+::\+Form1@{Windows\+Forms\+Application1\+::\+Form1}}
+\subsubsection[{disk\+Write}]{\setlength{\rightskip}{0pt plus 5cm}Double Windows\+Forms\+Application1.\+Form1.\+disk\+Write\hspace{0.3cm}{\ttfamily [set]}}\label{class_windows_forms_application1_1_1_form1_a21165d5313e265bc99107b4bcb60cdad}
+
+
+metodo para asignar la velocidad de escritrua del disco. redondea el valor a dos digitos hacia arriba y utiliza un metodo auxiliar para asignarlo. 
+
+
+
+Definition at line 158 of file view.\+cs.
+
+\hypertarget{class_windows_forms_application1_1_1_form1_ad6c6884d7846134ca9a860197d7ea0b6}{}\index{Windows\+Forms\+Application1\+::\+Form1@{Windows\+Forms\+Application1\+::\+Form1}!net\+Ins@{net\+Ins}}
+\index{net\+Ins@{net\+Ins}!Windows\+Forms\+Application1\+::\+Form1@{Windows\+Forms\+Application1\+::\+Form1}}
+\subsubsection[{net\+Ins}]{\setlength{\rightskip}{0pt plus 5cm}Double Windows\+Forms\+Application1.\+Form1.\+net\+Ins\hspace{0.3cm}{\ttfamily [set]}}\label{class_windows_forms_application1_1_1_form1_ad6c6884d7846134ca9a860197d7ea0b6}
+
+
+Metodo para asignar la velocidad de bites recibidos por red redondea el valor a dos digitos hacia arriba y utiliza un metodo auxiliar para asignarlo. 
+
+
+
+Definition at line 197 of file view.\+cs.
+
+\hypertarget{class_windows_forms_application1_1_1_form1_a50fa7fa857eb7587ab11e7b2c502f240}{}\index{Windows\+Forms\+Application1\+::\+Form1@{Windows\+Forms\+Application1\+::\+Form1}!net\+Outs@{net\+Outs}}
+\index{net\+Outs@{net\+Outs}!Windows\+Forms\+Application1\+::\+Form1@{Windows\+Forms\+Application1\+::\+Form1}}
+\subsubsection[{net\+Outs}]{\setlength{\rightskip}{0pt plus 5cm}Double Windows\+Forms\+Application1.\+Form1.\+net\+Outs\hspace{0.3cm}{\ttfamily [set]}}\label{class_windows_forms_application1_1_1_form1_a50fa7fa857eb7587ab11e7b2c502f240}
+
+
+Metodo para asignar la velocidad de bites enviados por red redondea el valor a dos digitos hacia arriba y utiliza un metodo auxiliar para asignarlo. 
+
+
+
+Definition at line 184 of file view.\+cs.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/fides/\+Desktop/\+Windows\+Forms\+Application1/\+Windows\+Forms\+Application1/\+Views/\hyperlink{view_8cs}{view.\+cs}\item 
+/\+Users/fides/\+Desktop/\+Windows\+Forms\+Application1/\+Windows\+Forms\+Application1/\+Views/\hyperlink{view_8_designer_8cs}{view.\+Designer.\+cs}\end{DoxyCompactItemize}

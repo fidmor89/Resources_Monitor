@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_windows_forms_application1_1_1_properties_1_1_settings" kind="class" language="C#" prot="package">
+    <compoundname>WindowsFormsApplication1::Properties::Settings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ApplicationSettingsBase</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_properties_1_1_settings_1adc011eebc062722c5e9e20ae5af49a38" prot="private" static="yes" mutable="no">
+        <type>Settings</type>
+        <definition>Settings WindowsFormsApplication1.Properties.Settings.defaultInstance</definition>
+        <argsstring></argsstring>
+        <name>defaultInstance</name>
+        <initializer>= ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Properties/Settings.Designer.cs" line="20" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Properties/Settings.Designer.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_windows_forms_application1_1_1_properties_1_1_settings_1a623b9ceafdc83e54a2fdba330b244904" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Settings</type>
+        <definition>Settings WindowsFormsApplication1.Properties.Settings.Default</definition>
+        <argsstring></argsstring>
+        <name>Default</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Properties/Settings.Designer.cs" line="22" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Properties/Settings.Designer.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="17">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+      <node id="16">
+        <label>WindowsFormsApplication1.Properties.Settings</label>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="19">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+      <node id="18">
+        <label>WindowsFormsApplication1.Properties.Settings</label>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Properties/Settings.Designer.cs" line="18" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Properties/Settings.Designer.cs" bodystart="17" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_windows_forms_application1_1_1_properties_1_1_settings_1a623b9ceafdc83e54a2fdba330b244904" prot="public" virt="non-virtual"><scope>WindowsFormsApplication1::Properties::Settings</scope><name>Default</name></member>
+      <member refid="class_windows_forms_application1_1_1_properties_1_1_settings_1adc011eebc062722c5e9e20ae5af49a38" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Properties::Settings</scope><name>defaultInstance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

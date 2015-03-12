@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_bfede09f70b588525a44d7a20388683b" kind="dir">
+    <compoundname>/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views</compoundname>
+    <innerfile refid="view_8cs">view.cs</innerfile>
+    <innerfile refid="view_8_designer_8cs">view.Designer.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/"/>
+  </compounddef>
+</doxygen>

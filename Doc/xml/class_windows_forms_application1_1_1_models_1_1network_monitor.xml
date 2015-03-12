@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_windows_forms_application1_1_1_models_1_1network_monitor" kind="class" language="C#" prot="public">
+    <compoundname>WindowsFormsApplication1::Models::networkMonitor</compoundname>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_windows_forms_application1_1_1_models_1_1network_monitor_1a6699b690e9a261ce7d5d0c6508fdee8d" prot="private" static="no">
+        <name>NetData</name>
+        <enumvalue id="class_windows_forms_application1_1_1_models_1_1network_monitor_1a6699b690e9a261ce7d5d0c6508fdee8da01729bb4d33c9ecd6254ba1140c061f1" prot="public">
+          <name>ReceivedAndSent</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_windows_forms_application1_1_1_models_1_1network_monitor_1a6699b690e9a261ce7d5d0c6508fdee8daac5bb077c33753116b5e91ff1766e7bc" prot="public">
+          <name>Received</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_windows_forms_application1_1_1_models_1_1network_monitor_1a6699b690e9a261ce7d5d0c6508fdee8da7f8c0283f16925caed8e632086b81b9c" prot="public">
+          <name>Sent</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>diccionario para seleccionar tipo de informacion a contar. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" line="27" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1network_monitor_1a3c5a2b9d535b670b164fd9ae5386eed6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WindowsFormsApplication1.Models.networkMonitor.millisecondsTimeout</definition>
+        <argsstring></argsstring>
+        <name>millisecondsTimeout</name>
+        <briefdescription>
+<para>tiempo de espera. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" line="16" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1network_monitor_1adbd1e1766e1bcd0ee3f37ba777f3eb79" prot="private" static="no" mutable="no">
+        <type><ref refid="class_windows_forms_application1_1_1_form1" kindref="compound">Form1</ref></type>
+        <definition>Form1 WindowsFormsApplication1.Models.networkMonitor.viewContext</definition>
+        <argsstring></argsstring>
+        <name>viewContext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" line="22" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1network_monitor_1a2753449661dbe5e9067249b22d6a79a3" prot="private" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] WindowsFormsApplication1.Models.networkMonitor.instanceNames</definition>
+        <argsstring></argsstring>
+        <name>instanceNames</name>
+        <briefdescription>
+<para>listado de interfaces de red </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" line="31" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1network_monitor_1a77fe360d7f30145e316da55912b7f2f3" prot="private" static="no" mutable="no">
+        <type>PerformanceCounter[]</type>
+        <definition>PerformanceCounter [] WindowsFormsApplication1.Models.networkMonitor._netRecvCounters</definition>
+        <argsstring></argsstring>
+        <name>_netRecvCounters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" line="32" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1network_monitor_1a592910d8fa34d97cf07e593cddea9cb0" prot="private" static="no" mutable="no">
+        <type>PerformanceCounter[]</type>
+        <definition>PerformanceCounter [] WindowsFormsApplication1.Models.networkMonitor._netSentCounters</definition>
+        <argsstring></argsstring>
+        <name>_netSentCounters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" line="33" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1network_monitor_1af353341ae9a6b6e6f0a33b9167012b59" prot="private" static="no" mutable="no">
+        <type>Double</type>
+        <definition>Double WindowsFormsApplication1.Models.networkMonitor.inData</definition>
+        <argsstring></argsstring>
+        <name>inData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" line="34" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1network_monitor_1ab5749339151c94a58316e4ca569257db" prot="private" static="no" mutable="no">
+        <type>Double</type>
+        <definition>Double WindowsFormsApplication1.Models.networkMonitor.outData</definition>
+        <argsstring></argsstring>
+        <name>outData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" line="35" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1network_monitor_1a82d0b5f737b02b0e425861816913ae6f" prot="private" static="yes" mutable="no">
+        <type>String</type>
+        <definition>String WindowsFormsApplication1.Models.networkMonitor.threadName</definition>
+        <argsstring></argsstring>
+        <name>threadName</name>
+        <initializer>= &quot;Thread-Network-Monitor&quot;</initializer>
+        <briefdescription>
+<para>nombre de thread </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" line="20" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_models_1_1network_monitor_1a47394bbe882034e4aa0176447f63ac18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WindowsFormsApplication1.Models.networkMonitor.networkMonitor</definition>
+        <argsstring>(int p, Form1 cte)</argsstring>
+        <name>networkMonitor</name>
+        <param>
+          <type>int</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type><ref refid="class_windows_forms_application1_1_1_form1" kindref="compound">Form1</ref></type>
+          <declname>cte</declname>
+        </param>
+        <briefdescription>
+<para>contructor. obtiene y almacena las interfaces de red. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>tiempo para sleep en cada iteracion</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cte</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>referencia a vista.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" line="43" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" bodystart="43" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_models_1_1network_monitor_1a68fc1d2e7fea38e56b414ea25e378d2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApplication1.Models.networkMonitor.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+<para>crea e inicia el thread </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" line="64" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" bodystart="64" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_models_1_1network_monitor_1a16af880c6f9b33ee9c0e8ff119060624" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApplication1.Models.networkMonitor.Run</definition>
+        <argsstring>()</argsstring>
+        <name>Run</name>
+        <briefdescription>
+<para>mientras la vista exista: obtiene informacion de datos enviados y recibidos y los manda a mostrar. si la interfaz es cerrada el thread termina pausa en cada iteracion. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" line="77" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" bodystart="77" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_models_1_1network_monitor_1a8facaf0745a1e4b01e85d5e7db517ada" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double WindowsFormsApplication1.Models.networkMonitor.GetNetData</definition>
+        <argsstring>(NetData nd)</argsstring>
+        <name>GetNetData</name>
+        <param>
+          <type>NetData</type>
+          <declname>nd</declname>
+        </param>
+        <briefdescription>
+<para>obtiene informacion de red </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>tipo de datos(recibido, enviado o ambos)</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" line="111" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" bodystart="111" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_models_1_1network_monitor_1af035163d0906d2575162510106574e46" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double WindowsFormsApplication1.Models.networkMonitor.GetCounterValue</definition>
+        <argsstring>(PerformanceCounter pc, string categoryName, string counterName, string instanceName)</argsstring>
+        <name>GetCounterValue</name>
+        <param>
+          <type>PerformanceCounter</type>
+          <declname>pc</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>categoryName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>counterName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>instanceName</declname>
+        </param>
+        <briefdescription>
+<para>obtiene el siguiente valor de pc para la categoria, nombre e instancia dadas. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>performacen counter</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>categoryName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nombre de la categoria</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>counterName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>informacion solicitada</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>instanceName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" line="140" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" bodystart="140" bodyend="146"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" line="12" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/networkMonitor.cs" bodystart="11" bodyend="147"/>
+    <listofallmembers>
+      <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1a77fe360d7f30145e316da55912b7f2f3" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::networkMonitor</scope><name>_netRecvCounters</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1a592910d8fa34d97cf07e593cddea9cb0" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::networkMonitor</scope><name>_netSentCounters</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1af035163d0906d2575162510106574e46" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::networkMonitor</scope><name>GetCounterValue</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1a8facaf0745a1e4b01e85d5e7db517ada" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::networkMonitor</scope><name>GetNetData</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1af353341ae9a6b6e6f0a33b9167012b59" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::networkMonitor</scope><name>inData</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1a2753449661dbe5e9067249b22d6a79a3" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::networkMonitor</scope><name>instanceNames</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1a3c5a2b9d535b670b164fd9ae5386eed6" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::networkMonitor</scope><name>millisecondsTimeout</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1a6699b690e9a261ce7d5d0c6508fdee8d" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::networkMonitor</scope><name>NetData</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1a47394bbe882034e4aa0176447f63ac18" prot="public" virt="non-virtual"><scope>WindowsFormsApplication1::Models::networkMonitor</scope><name>networkMonitor</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1ab5749339151c94a58316e4ca569257db" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::networkMonitor</scope><name>outData</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1a16af880c6f9b33ee9c0e8ff119060624" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::networkMonitor</scope><name>Run</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1a68fc1d2e7fea38e56b414ea25e378d2c" prot="public" virt="non-virtual"><scope>WindowsFormsApplication1::Models::networkMonitor</scope><name>Start</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1a82d0b5f737b02b0e425861816913ae6f" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::networkMonitor</scope><name>threadName</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1adbd1e1766e1bcd0ee3f37ba777f3eb79" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::networkMonitor</scope><name>viewContext</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

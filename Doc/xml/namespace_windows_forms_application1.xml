@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="namespace_windows_forms_application1" kind="namespace" language="C#">
+    <compoundname>WindowsFormsApplication1</compoundname>
+    <innerclass refid="class_windows_forms_application1_1_1_form1" prot="public">WindowsFormsApplication1::Form1</innerclass>
+    <innerclass refid="class_windows_forms_application1_1_1_program" prot="public">WindowsFormsApplication1::Program</innerclass>
+    <innernamespace refid="namespace_windows_forms_application1_1_1_controllers">WindowsFormsApplication1::Controllers</innernamespace>
+    <innernamespace refid="namespace_windows_forms_application1_1_1_models">WindowsFormsApplication1::Models</innernamespace>
+    <innernamespace refid="namespace_windows_forms_application1_1_1_properties">WindowsFormsApplication1::Properties</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

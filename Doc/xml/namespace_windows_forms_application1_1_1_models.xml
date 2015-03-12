@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="namespace_windows_forms_application1_1_1_models" kind="namespace" language="C#">
+    <compoundname>WindowsFormsApplication1::Models</compoundname>
+    <innerclass refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor" prot="public">WindowsFormsApplication1::Models::cpuMonitor</innerclass>
+    <innerclass refid="class_windows_forms_application1_1_1_models_1_1disk_monitor" prot="public">WindowsFormsApplication1::Models::diskMonitor</innerclass>
+    <innerclass refid="class_windows_forms_application1_1_1_models_1_1network_monitor" prot="public">WindowsFormsApplication1::Models::networkMonitor</innerclass>
+    <innerclass refid="class_windows_forms_application1_1_1_models_1_1ram_monitor" prot="public">WindowsFormsApplication1::Models::ramMonitor</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/cpuMonitor.cs" line="10" column="1"/>
+  </compounddef>
+</doxygen>

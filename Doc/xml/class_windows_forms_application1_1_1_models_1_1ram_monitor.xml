@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_windows_forms_application1_1_1_models_1_1ram_monitor" kind="class" language="C#" prot="public">
+    <compoundname>WindowsFormsApplication1::Models::ramMonitor</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a287f358e8e649b33ae7558b4e055c600" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WindowsFormsApplication1.Models.ramMonitor.millisecondsTimeout</definition>
+        <argsstring></argsstring>
+        <name>millisecondsTimeout</name>
+        <briefdescription>
+<para>tiempo de espera </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" line="17" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a10045e91f04254b0dd31897364b7d16e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_windows_forms_application1_1_1_form1" kindref="compound">Form1</ref></type>
+        <definition>Form1 WindowsFormsApplication1.Models.ramMonitor.viewContext</definition>
+        <argsstring></argsstring>
+        <name>viewContext</name>
+        <briefdescription>
+<para>referencia a vista </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" line="26" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a3974c8300c33dc180242741ffa5e1a3a" prot="private" static="no" mutable="no">
+        <type>PerformanceCounter</type>
+        <definition>PerformanceCounter WindowsFormsApplication1.Models.ramMonitor._memoryCounter</definition>
+        <argsstring></argsstring>
+        <name>_memoryCounter</name>
+        <initializer>= new PerformanceCounter()</initializer>
+        <briefdescription>
+<para>performance counter, componente de Win NT para contabilizar performance de pc </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" line="30" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a68e10bb7928c83bd45c8acd141335392" prot="private" static="no" mutable="no">
+        <type>Double</type>
+        <definition>Double WindowsFormsApplication1.Models.ramMonitor.virtualMemTotal</definition>
+        <argsstring></argsstring>
+        <name>virtualMemTotal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" line="32" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1ram_monitor_1aeb7764ae9b662fadc1ae375f0e115891" prot="private" static="no" mutable="no">
+        <type>Double</type>
+        <definition>Double WindowsFormsApplication1.Models.ramMonitor.virtualMemWired</definition>
+        <argsstring></argsstring>
+        <name>virtualMemWired</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" line="33" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a99ab87532089c42958b5c47f2519c67c" prot="private" static="no" mutable="no">
+        <type>Double</type>
+        <definition>Double WindowsFormsApplication1.Models.ramMonitor.virtualMemPercentage</definition>
+        <argsstring></argsstring>
+        <name>virtualMemPercentage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" line="34" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a1ecf73c9565ba93d0d47776f0569c611" prot="private" static="no" mutable="no">
+        <type>Double</type>
+        <definition>Double WindowsFormsApplication1.Models.ramMonitor.physicalMemTotal</definition>
+        <argsstring></argsstring>
+        <name>physicalMemTotal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" line="36" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1ram_monitor_1aaa630d5c9564985ae77855f26a67f275" prot="private" static="no" mutable="no">
+        <type>Double</type>
+        <definition>Double WindowsFormsApplication1.Models.ramMonitor.physicalMemWired</definition>
+        <argsstring></argsstring>
+        <name>physicalMemWired</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" line="37" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a297d208ea1fc50d3130ca7dff0bbf1e8" prot="private" static="no" mutable="no">
+        <type>Double</type>
+        <definition>Double WindowsFormsApplication1.Models.ramMonitor.physicalMemPercentage</definition>
+        <argsstring></argsstring>
+        <name>physicalMemPercentage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" line="38" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a0d8c0f684d8684e0c80cc5f1e544df29" prot="private" static="yes" mutable="no">
+        <type>String</type>
+        <definition>String WindowsFormsApplication1.Models.ramMonitor.threadName</definition>
+        <argsstring></argsstring>
+        <name>threadName</name>
+        <initializer>= &quot;Thread-Ram-Monitor&quot;</initializer>
+        <briefdescription>
+<para>nombre del thread </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" line="21" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_models_1_1ram_monitor_1ad5a55b438a2b36335689d27cc9661b36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WindowsFormsApplication1.Models.ramMonitor.ramMonitor</definition>
+        <argsstring>(int p, Form1 cte)</argsstring>
+        <name>ramMonitor</name>
+        <param>
+          <type>int</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type><ref refid="class_windows_forms_application1_1_1_form1" kindref="compound">Form1</ref></type>
+          <declname>cte</declname>
+        </param>
+        <briefdescription>
+<para>constructor default. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cte</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" line="45" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" bodystart="45" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_models_1_1ram_monitor_1aa7fa3d4e01ea1db3c2f8dd355d7ed3e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApplication1.Models.ramMonitor.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+<para>crea e inicia el thread </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" line="54" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" bodystart="54" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a3d8b8c1533e8c901389554b0d511fb16" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApplication1.Models.ramMonitor.Run</definition>
+        <argsstring>()</argsstring>
+        <name>Run</name>
+        <briefdescription>
+<para>Metodo principal del thread mientras exista interfaz: </para>        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>obtiene valores</para></listitem><listitem><para>manda a imprimir varlores</para></listitem><listitem><para>duerme tread </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" line="68" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" bodystart="68" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a2e5964a25dce8d26bcdef33ab3426fd4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApplication1.Models.ramMonitor.calcularMemoriaVirtual</definition>
+        <argsstring>()</argsstring>
+        <name>calcularMemoriaVirtual</name>
+        <briefdescription>
+<para>calcula valroes de memoria virtual y los almacena en las variables globales reservadas para esto valrores calculados: total, utilizada, porcentaje </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" line="94" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" bodystart="94" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_models_1_1ram_monitor_1ad2e0e711481a9e95ec2a4ac0e467e400" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApplication1.Models.ramMonitor.calcularMemoriaFisica</definition>
+        <argsstring>()</argsstring>
+        <name>calcularMemoriaFisica</name>
+        <briefdescription>
+<para>calcula valores para memoria fisica valores obtenidos: total, usado, porcentaje. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" line="112" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" bodystart="112" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a02cc88326085d9143b9b6eb6b6776240" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double WindowsFormsApplication1.Models.ramMonitor.GetCounterValue</definition>
+        <argsstring>(PerformanceCounter pc, string categoryName, string counterName, string instanceName)</argsstring>
+        <name>GetCounterValue</name>
+        <param>
+          <type>PerformanceCounter</type>
+          <declname>pc</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>categoryName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>counterName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>instanceName</declname>
+        </param>
+        <briefdescription>
+<para>obtiene el siguiente valor de pc para la categoria, nombre e instancia dadas. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>performacen counter</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>categoryName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nombre de la categoria</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>counterName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>informacion solicitada</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>instanceName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" line="140" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" bodystart="140" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a4207b36fea66cac78b1636ed2dd5aa0f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string WindowsFormsApplication1.Models.ramMonitor.QueryComputerSystem</definition>
+        <argsstring>(string type)</argsstring>
+        <name>QueryComputerSystem</name>
+        <param>
+          <type>string</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>funcion que realiza una consulta a Win32 para obtener informacion. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" line="153" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" bodystart="153" bodyend="162"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" line="13" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/ramMonitor.cs" bodystart="12" bodyend="163"/>
+    <listofallmembers>
+      <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a3974c8300c33dc180242741ffa5e1a3a" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::ramMonitor</scope><name>_memoryCounter</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1ad2e0e711481a9e95ec2a4ac0e467e400" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::ramMonitor</scope><name>calcularMemoriaFisica</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a2e5964a25dce8d26bcdef33ab3426fd4" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::ramMonitor</scope><name>calcularMemoriaVirtual</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a02cc88326085d9143b9b6eb6b6776240" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::ramMonitor</scope><name>GetCounterValue</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a287f358e8e649b33ae7558b4e055c600" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::ramMonitor</scope><name>millisecondsTimeout</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a297d208ea1fc50d3130ca7dff0bbf1e8" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::ramMonitor</scope><name>physicalMemPercentage</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a1ecf73c9565ba93d0d47776f0569c611" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::ramMonitor</scope><name>physicalMemTotal</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1aaa630d5c9564985ae77855f26a67f275" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::ramMonitor</scope><name>physicalMemWired</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a4207b36fea66cac78b1636ed2dd5aa0f" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::ramMonitor</scope><name>QueryComputerSystem</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1ad5a55b438a2b36335689d27cc9661b36" prot="public" virt="non-virtual"><scope>WindowsFormsApplication1::Models::ramMonitor</scope><name>ramMonitor</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a3d8b8c1533e8c901389554b0d511fb16" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::ramMonitor</scope><name>Run</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1aa7fa3d4e01ea1db3c2f8dd355d7ed3e0" prot="public" virt="non-virtual"><scope>WindowsFormsApplication1::Models::ramMonitor</scope><name>Start</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a0d8c0f684d8684e0c80cc5f1e544df29" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::ramMonitor</scope><name>threadName</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a10045e91f04254b0dd31897364b7d16e" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::ramMonitor</scope><name>viewContext</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a99ab87532089c42958b5c47f2519c67c" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::ramMonitor</scope><name>virtualMemPercentage</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a68e10bb7928c83bd45c8acd141335392" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::ramMonitor</scope><name>virtualMemTotal</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1aeb7764ae9b662fadc1ae375f0e115891" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::ramMonitor</scope><name>virtualMemWired</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

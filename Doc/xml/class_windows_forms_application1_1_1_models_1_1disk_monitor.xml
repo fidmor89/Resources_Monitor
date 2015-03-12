@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_windows_forms_application1_1_1_models_1_1disk_monitor" kind="class" language="C#" prot="public">
+    <compoundname>WindowsFormsApplication1::Models::diskMonitor</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a5e72e797fa7e0095f80d5069b11ae0ec" prot="public" static="no">
+        <name>tipoOperacionDisco</name>
+        <enumvalue id="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a5e72e797fa7e0095f80d5069b11ae0eca38ca42a40fd96052406452e916cc22ad" prot="public">
+          <name>ReadAndWrite</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a5e72e797fa7e0095f80d5069b11ae0eca7a1a5f3e79fdc91edf2f5ead9d66abb4" prot="public">
+          <name>Read</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a5e72e797fa7e0095f80d5069b11ae0eca1129c0e4d43f2d121652a7302712cff6" prot="public">
+          <name>Write</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>diccionario para seleccionar tipo de acceso a medir. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" line="38" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a04f92ee8074675ecb520297b929a49c6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WindowsFormsApplication1.Models.diskMonitor.millisecondsTimeout</definition>
+        <argsstring></argsstring>
+        <name>millisecondsTimeout</name>
+        <briefdescription>
+<para>Parametro para tiempo de sleep del thread </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" line="16" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1disk_monitor_1abdaa556ac8470d7e8a6a6423914cf20c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_windows_forms_application1_1_1_form1" kindref="compound">Form1</ref></type>
+        <definition>Form1 WindowsFormsApplication1.Models.diskMonitor.viewContext</definition>
+        <argsstring></argsstring>
+        <name>viewContext</name>
+        <briefdescription>
+<para>parametro para almacenar referencia al contexto de la vista. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" line="24" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1disk_monitor_1af821ec00710984ad3b2b7a3333024e0d" prot="private" static="no" mutable="no">
+        <type>PerformanceCounter</type>
+        <definition>PerformanceCounter WindowsFormsApplication1.Models.diskMonitor._diskReadCounter</definition>
+        <argsstring></argsstring>
+        <name>_diskReadCounter</name>
+        <initializer>= new PerformanceCounter()</initializer>
+        <briefdescription>
+<para>componente de windows NT para medir el performance de la PC (lectura en disco) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" line="29" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a99377e1a4736af73bdd08b929b33a66a" prot="private" static="no" mutable="no">
+        <type>PerformanceCounter</type>
+        <definition>PerformanceCounter WindowsFormsApplication1.Models.diskMonitor._diskWriteCounter</definition>
+        <argsstring></argsstring>
+        <name>_diskWriteCounter</name>
+        <initializer>= new PerformanceCounter()</initializer>
+        <briefdescription>
+<para>componente de windows NT para medir el performance de la PC (escritura en disco) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" line="33" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a1d58c8ce597434caab821cd448dc4870" prot="private" static="no" mutable="no">
+        <type>Double</type>
+        <definition>Double WindowsFormsApplication1.Models.diskMonitor.diskReads</definition>
+        <argsstring></argsstring>
+        <name>diskReads</name>
+        <briefdescription>
+<para>variable que mantiene la ultima lectura en el perfrmacne counter </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" line="43" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1disk_monitor_1ad36c4827e4a40f0f07954a2ef44c16d9" prot="private" static="no" mutable="no">
+        <type>Double</type>
+        <definition>Double WindowsFormsApplication1.Models.diskMonitor.diskWrites</definition>
+        <argsstring></argsstring>
+        <name>diskWrites</name>
+        <briefdescription>
+<para>variable que mantiene la ultima lectura en el perfrmacne counter </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" line="47" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a54ffb433545cf14741efa0889fa87b31" prot="private" static="yes" mutable="no">
+        <type>String</type>
+        <definition>String WindowsFormsApplication1.Models.diskMonitor.threadName</definition>
+        <argsstring></argsstring>
+        <name>threadName</name>
+        <initializer>= &quot;Thread-Disk-Monitor&quot;</initializer>
+        <briefdescription>
+<para>nombre del thread </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" line="20" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a1adc13f29078356113f2688eef9c1d70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WindowsFormsApplication1.Models.diskMonitor.diskMonitor</definition>
+        <argsstring>(int intervalTimeOut, Form1 cte)</argsstring>
+        <name>diskMonitor</name>
+        <param>
+          <type>int</type>
+          <declname>intervalTimeOut</declname>
+        </param>
+        <param>
+          <type><ref refid="class_windows_forms_application1_1_1_form1" kindref="compound">Form1</ref></type>
+          <declname>cte</declname>
+        </param>
+        <briefdescription>
+<para>Construcctor de la clase </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>intervalTimeOut</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>tiempo para sleep</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cte</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>contexto de interfaz</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" line="54" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" bodystart="54" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_models_1_1disk_monitor_1aea00f90a1d1f844635454060c76133a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApplication1.Models.diskMonitor.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+<para>crea un thread y lo inicia </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" line="63" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" bodystart="63" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a3d5bf64d33553c41813a96769b898503" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double WindowsFormsApplication1.Models.diskMonitor.GetDiskData</definition>
+        <argsstring>(tipoOperacionDisco tipoAcceso)</argsstring>
+        <name>GetDiskData</name>
+        <param>
+          <type><ref refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a5e72e797fa7e0095f80d5069b11ae0ec" kindref="member">tipoOperacionDisco</ref></type>
+          <declname>tipoAcceso</declname>
+        </param>
+        <briefdescription>
+<para>funcion para obtener la velodicidad del disco, funciona para lectura, escritura, y lectura/escritura. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tipoAcceso</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>indica tipo de acceso.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>double con informacion solicitada en Bytes/sec</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" line="104" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" bodystart="104" bodyend="114"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_models_1_1disk_monitor_1af90b94e2e26412e4f8d4cd02cb25ebc4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApplication1.Models.diskMonitor.Run</definition>
+        <argsstring>()</argsstring>
+        <name>Run</name>
+        <briefdescription>
+<para>consulta la informacion y la manda a mostrar mientras exista la ventana. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" line="73" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" bodystart="73" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_models_1_1disk_monitor_1ad4ddfd29daaa6954f66d3a3428102c09" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double WindowsFormsApplication1.Models.diskMonitor.GetCounterValue</definition>
+        <argsstring>(PerformanceCounter pc, string categoryName, string counterName, string instanceName)</argsstring>
+        <name>GetCounterValue</name>
+        <param>
+          <type>PerformanceCounter</type>
+          <declname>pc</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>categoryName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>counterName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>instanceName</declname>
+        </param>
+        <briefdescription>
+<para>obtiene el siguiente valor de pc para la categoria, nombre e instancia dadas. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>performacen counter</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>categoryName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nombre de la categoria</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>counterName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>informacion solicitada</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>instanceName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" line="124" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" bodystart="124" bodyend="130"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" line="12" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/diskMonitor.cs" bodystart="11" bodyend="133"/>
+    <listofallmembers>
+      <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1af821ec00710984ad3b2b7a3333024e0d" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::diskMonitor</scope><name>_diskReadCounter</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a99377e1a4736af73bdd08b929b33a66a" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::diskMonitor</scope><name>_diskWriteCounter</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a1adc13f29078356113f2688eef9c1d70" prot="public" virt="non-virtual"><scope>WindowsFormsApplication1::Models::diskMonitor</scope><name>diskMonitor</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a1d58c8ce597434caab821cd448dc4870" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::diskMonitor</scope><name>diskReads</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1ad36c4827e4a40f0f07954a2ef44c16d9" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::diskMonitor</scope><name>diskWrites</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1ad4ddfd29daaa6954f66d3a3428102c09" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::diskMonitor</scope><name>GetCounterValue</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a3d5bf64d33553c41813a96769b898503" prot="public" virt="non-virtual"><scope>WindowsFormsApplication1::Models::diskMonitor</scope><name>GetDiskData</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a04f92ee8074675ecb520297b929a49c6" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::diskMonitor</scope><name>millisecondsTimeout</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1af90b94e2e26412e4f8d4cd02cb25ebc4" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::diskMonitor</scope><name>Run</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1aea00f90a1d1f844635454060c76133a0" prot="public" virt="non-virtual"><scope>WindowsFormsApplication1::Models::diskMonitor</scope><name>Start</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a54ffb433545cf14741efa0889fa87b31" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::diskMonitor</scope><name>threadName</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a5e72e797fa7e0095f80d5069b11ae0ec" prot="public" virt="non-virtual"><scope>WindowsFormsApplication1::Models::diskMonitor</scope><name>tipoOperacionDisco</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1abdaa556ac8470d7e8a6a6423914cf20c" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::diskMonitor</scope><name>viewContext</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

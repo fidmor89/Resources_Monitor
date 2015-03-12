@@ -1,0 +1,868 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_windows_forms_application1_1_1_form1" kind="class" language="C#" prot="public">
+    <compoundname>WindowsFormsApplication1::Form1</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_form1_1a25a7659730529747eea2590a72292a07" prot="private" static="no" mutable="no">
+        <type><ref refid="class_windows_forms_application1_1_1_controllers_1_1view_controller" kindref="compound">viewController</ref></type>
+        <definition>viewController WindowsFormsApplication1.Form1.vc</definition>
+        <argsstring></argsstring>
+        <name>vc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" line="18" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_form1_1a5b7bc61be1de885c089f322f625038db" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer WindowsFormsApplication1.Form1.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" line="8" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_form1_1a480f4df27e17619ee951fe82b0bb20f7" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label WindowsFormsApplication1.Form1.label1</definition>
+        <argsstring></argsstring>
+        <name>label1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" line="445" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" bodystart="445" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_form1_1af35525ff61df2457019272af52692644" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label WindowsFormsApplication1.Form1.label2</definition>
+        <argsstring></argsstring>
+        <name>label2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" line="446" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" bodystart="446" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_form1_1aa994633d76e7d7f578429f57f317897c" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.GroupBox</type>
+        <definition>System.Windows.Forms.GroupBox WindowsFormsApplication1.Form1.groupBox1</definition>
+        <argsstring></argsstring>
+        <name>groupBox1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" line="447" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" bodystart="447" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_form1_1a39d2827ec9c98defbce6f0a3f863e3e4" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.GroupBox</type>
+        <definition>System.Windows.Forms.GroupBox WindowsFormsApplication1.Form1.groupBox2</definition>
+        <argsstring></argsstring>
+        <name>groupBox2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" line="448" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" bodystart="448" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_form1_1a20622d38720576257fb7b44bac9e35f7" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label WindowsFormsApplication1.Form1.ramFisicaLbl</definition>
+        <argsstring></argsstring>
+        <name>ramFisicaLbl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" line="449" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" bodystart="449" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_form1_1a814b58d3b507f64e90064f5e37ff1e86" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label WindowsFormsApplication1.Form1.ramVirtualLbl</definition>
+        <argsstring></argsstring>
+        <name>ramVirtualLbl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" line="450" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" bodystart="450" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_form1_1aae6dc577da23b0fde86656baefedbd44" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.GroupBox</type>
+        <definition>System.Windows.Forms.GroupBox WindowsFormsApplication1.Form1.groupBox3</definition>
+        <argsstring></argsstring>
+        <name>groupBox3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" line="451" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" bodystart="451" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_form1_1a447ed25237ebeaec3d0fc67076fde60d" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.GroupBox</type>
+        <definition>System.Windows.Forms.GroupBox WindowsFormsApplication1.Form1.groupBox4</definition>
+        <argsstring></argsstring>
+        <name>groupBox4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" line="452" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" bodystart="452" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_form1_1abfa271bf4478f2b109cd01f1bc8dfc21" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataVisualization.Charting.Chart</type>
+        <definition>System.Windows.Forms.DataVisualization.Charting.Chart WindowsFormsApplication1.Form1.chartCpuHistory</definition>
+        <argsstring></argsstring>
+        <name>chartCpuHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" line="453" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" bodystart="453" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_form1_1a4cecda83ccc8db2c252ef5264f1780ee" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataVisualization.Charting.Chart</type>
+        <definition>System.Windows.Forms.DataVisualization.Charting.Chart WindowsFormsApplication1.Form1.chartRamHistory</definition>
+        <argsstring></argsstring>
+        <name>chartRamHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" line="454" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" bodystart="454" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_form1_1ab91cc1fb52d8c34a3d2b634487c94656" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataVisualization.Charting.Chart</type>
+        <definition>System.Windows.Forms.DataVisualization.Charting.Chart WindowsFormsApplication1.Form1.chartRamPie</definition>
+        <argsstring></argsstring>
+        <name>chartRamPie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" line="455" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" bodystart="455" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_form1_1a6e06a3665b841a7690eba971cbee65da" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataVisualization.Charting.Chart</type>
+        <definition>System.Windows.Forms.DataVisualization.Charting.Chart WindowsFormsApplication1.Form1.chartCpuActual</definition>
+        <argsstring></argsstring>
+        <name>chartCpuActual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" line="456" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" bodystart="456" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_form1_1a7542d10cefba73037300c0707efb54b0" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.GroupBox</type>
+        <definition>System.Windows.Forms.GroupBox WindowsFormsApplication1.Form1.groupBox6</definition>
+        <argsstring></argsstring>
+        <name>groupBox6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" line="457" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" bodystart="457" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_form1_1a930cac3edcc2300cfe3265fd30e4af10" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.GroupBox</type>
+        <definition>System.Windows.Forms.GroupBox WindowsFormsApplication1.Form1.groupBox5</definition>
+        <argsstring></argsstring>
+        <name>groupBox5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" line="458" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" bodystart="458" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_form1_1ac2bf92b137d2badcf9106e4a2c95ceb6" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.GroupBox</type>
+        <definition>System.Windows.Forms.GroupBox WindowsFormsApplication1.Form1.groupBox8</definition>
+        <argsstring></argsstring>
+        <name>groupBox8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" line="459" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" bodystart="459" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_form1_1ac89e93bbdb86ec6aa740078189787290" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.GroupBox</type>
+        <definition>System.Windows.Forms.GroupBox WindowsFormsApplication1.Form1.groupBox7</definition>
+        <argsstring></argsstring>
+        <name>groupBox7</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" line="460" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" bodystart="460" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_form1_1aa33434448af49bf199bd4674cfb40301" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataVisualization.Charting.Chart</type>
+        <definition>System.Windows.Forms.DataVisualization.Charting.Chart WindowsFormsApplication1.Form1.chartDiskReads</definition>
+        <argsstring></argsstring>
+        <name>chartDiskReads</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" line="461" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" bodystart="461" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_form1_1a8d946768d5518df858db9d5cfad5610a" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataVisualization.Charting.Chart</type>
+        <definition>System.Windows.Forms.DataVisualization.Charting.Chart WindowsFormsApplication1.Form1.chartDiskWrites</definition>
+        <argsstring></argsstring>
+        <name>chartDiskWrites</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" line="462" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" bodystart="462" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_form1_1a15c50d8da22d70924edcfbfc8c8bf314" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataVisualization.Charting.Chart</type>
+        <definition>System.Windows.Forms.DataVisualization.Charting.Chart WindowsFormsApplication1.Form1.chartNetOut</definition>
+        <argsstring></argsstring>
+        <name>chartNetOut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" line="463" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" bodystart="463" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_form1_1a863044aa36045a7ddc664102582228ee" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataVisualization.Charting.Chart</type>
+        <definition>System.Windows.Forms.DataVisualization.Charting.Chart WindowsFormsApplication1.Form1.chartNetIn</definition>
+        <argsstring></argsstring>
+        <name>chartNetIn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" line="464" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" bodystart="464" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_windows_forms_application1_1_1_form1_1ae445eb3f9ea10205e542590e77476e47" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Double</type>
+        <definition>Double WindowsFormsApplication1.Form1.cpuUsage</definition>
+        <argsstring></argsstring>
+        <name>cpuUsage</name>
+        <briefdescription>
+<para>metodo para asignar el uso de CPU redondea el valor a dos digitos hacia arriba y utiliza un metodo auxiliar para asignarlo. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" line="130" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_windows_forms_application1_1_1_form1_1af1ec7463a818d88cbf71689bbd444ab8" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Double</type>
+        <definition>Double WindowsFormsApplication1.Form1.cpuIdle</definition>
+        <argsstring></argsstring>
+        <name>cpuIdle</name>
+        <briefdescription>
+<para>metodo para asignar el del CPU que no esta uso. redondea el valor a dos digitos haci a arriba y utiliza un metodo auxiliar para asignarlo. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" line="144" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_windows_forms_application1_1_1_form1_1a21165d5313e265bc99107b4bcb60cdad" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Double</type>
+        <definition>Double WindowsFormsApplication1.Form1.diskWrite</definition>
+        <argsstring></argsstring>
+        <name>diskWrite</name>
+        <briefdescription>
+<para>metodo para asignar la velocidad de escritrua del disco. redondea el valor a dos digitos hacia arriba y utiliza un metodo auxiliar para asignarlo. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" line="157" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_windows_forms_application1_1_1_form1_1a99946d55dca3d347b344e9810b15a6d2" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Double</type>
+        <definition>Double WindowsFormsApplication1.Form1.diskReads</definition>
+        <argsstring></argsstring>
+        <name>diskReads</name>
+        <briefdescription>
+<para>metodo para asignar la velocidad de lectura del disco. Redondea el valor a dos digitos hacia arriba y utiliza un metodo auxiliar para asignarlo. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" line="170" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_windows_forms_application1_1_1_form1_1a50fa7fa857eb7587ab11e7b2c502f240" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Double</type>
+        <definition>Double WindowsFormsApplication1.Form1.netOuts</definition>
+        <argsstring></argsstring>
+        <name>netOuts</name>
+        <briefdescription>
+<para>Metodo para asignar la velocidad de bites enviados por red redondea el valor a dos digitos hacia arriba y utiliza un metodo auxiliar para asignarlo. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" line="183" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_windows_forms_application1_1_1_form1_1ad6c6884d7846134ca9a860197d7ea0b6" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Double</type>
+        <definition>Double WindowsFormsApplication1.Form1.netIns</definition>
+        <argsstring></argsstring>
+        <name>netIns</name>
+        <briefdescription>
+<para>Metodo para asignar la velocidad de bites recibidos por red redondea el valor a dos digitos hacia arriba y utiliza un metodo auxiliar para asignarlo. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" line="196" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_form1_1a69c9068cd58521646d5e961a8b88a020" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WindowsFormsApplication1.Form1.Form1</definition>
+        <argsstring>()</argsstring>
+        <name>Form1</name>
+        <briefdescription>
+<para>Constructor de la clase de vista inicializa componentes y controlador de vista (MVC) //llama funcion para el estilo de las graficas </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" line="25" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" bodystart="25" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_form1_1a4fda0d42358d44b8d3912a8e4d20e914" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApplication1.Form1.SetRamVirtual</definition>
+        <argsstring>(Double total, Double usada, Double porcentaje)</argsstring>
+        <name>SetRamVirtual</name>
+        <param>
+          <type>Double</type>
+          <declname>total</declname>
+        </param>
+        <param>
+          <type>Double</type>
+          <declname>usada</declname>
+        </param>
+        <param>
+          <type>Double</type>
+          <declname>porcentaje</declname>
+        </param>
+        <briefdescription>
+<para>metodo auxiliar para actualizar interfaz de usuario. verifica si fue invocada por otro thread y de ser asi obtiene la firma del thread de de UX y se invoca a si mismo por medio del delegate actualiza grafica y labels necesarios </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" line="530" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" bodystart="530" bodyend="573"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_form1_1afac9f5fe44220f30b2e8ec3750abd874" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApplication1.Form1.SetRamFisica</definition>
+        <argsstring>(Double total, Double usada, Double porcentaje)</argsstring>
+        <name>SetRamFisica</name>
+        <param>
+          <type>Double</type>
+          <declname>total</declname>
+        </param>
+        <param>
+          <type>Double</type>
+          <declname>usada</declname>
+        </param>
+        <param>
+          <type>Double</type>
+          <declname>porcentaje</declname>
+        </param>
+        <briefdescription>
+<para>metodo auxiliar para actualizar interfaz de usuario. verifica si fue invocada por otro thread y de ser asi obtiene la firma del thread de de UX y se invoca a si mismo por medio del delegate actualiza grafica y labels necesarios </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" line="581" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" bodystart="581" bodyend="626"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_form1_1a5dd90354e0a245150b3f5d0c9f60382b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApplication1.Form1.lookAndFeel</definition>
+        <argsstring>()</argsstring>
+        <name>lookAndFeel</name>
+        <briefdescription>
+<para>Asigna estilos visuales a la interfaz grafica gruopbox, labels y graficas. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" line="38" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" bodystart="38" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_form1_1a09dbf7277764e4102272a43dd46b0906" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApplication1.Form1.barGreenStyle</definition>
+        <argsstring>(Chart ch, Boolean isColumn)</argsstring>
+        <name>barGreenStyle</name>
+        <param>
+          <type>Chart</type>
+          <declname>ch</declname>
+        </param>
+        <param>
+          <type>Boolean</type>
+          <declname>isColumn</declname>
+        </param>
+        <briefdescription>
+<para>funcion para asignar el estilo de una grafica similar al taskmgr de windows 7 fondo negro y grafica verde </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ch</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>grafica afectada</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isColumn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true: hace grafica de columnas, false: no modifica el tipo de grafica</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" line="107" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" bodystart="107" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_form1_1a84ee00d30fb8ead9638b2d4c3d8ae34e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void WindowsFormsApplication1.Form1.SetTextCallback</definition>
+        <argsstring>(string text)</argsstring>
+        <name>SetTextCallback</name>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Delegate utilizado para validar que se este actualizando la interfaz desde el thread de interfaz </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>valor a asignar</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" line="213" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_form1_1a2e16d3064e2c71184752527853176748" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void WindowsFormsApplication1.Form1.SetTextCallback3</definition>
+        <argsstring>(Double value)</argsstring>
+        <name>SetTextCallback3</name>
+        <param>
+          <type>Double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Delegate utilizado para validar que se este actualizando la interfaz desde el thread de interfaz </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>valor a asignar</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" line="218" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_form1_1a07d94b283f799dfcd9147ed43a8cb825" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void WindowsFormsApplication1.Form1.SetTextCallback2</definition>
+        <argsstring>(Double total, Double usada, Double porcentaje)</argsstring>
+        <name>SetTextCallback2</name>
+        <param>
+          <type>Double</type>
+          <declname>total</declname>
+        </param>
+        <param>
+          <type>Double</type>
+          <declname>usada</declname>
+        </param>
+        <param>
+          <type>Double</type>
+          <declname>porcentaje</declname>
+        </param>
+        <briefdescription>
+<para>Delegate utilizado para validar que se este actualizando la interfaz desde el thread de interfaz </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>total</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>usada</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>porcentaje</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" line="226" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_form1_1af0724a14badf457a8d80c7031ceff8d3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApplication1.Form1.SetNetOuts</definition>
+        <argsstring>(Double text)</argsstring>
+        <name>SetNetOuts</name>
+        <param>
+          <type>Double</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>metodo auxiliar para actualizar interfaz de usuario. verifica si fue invocada por otro thread y de ser asi obtiene la firma del thread de de UX y se invoca a si mismo por medio del delegate </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" line="233" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" bodystart="233" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_form1_1a6d3124137ad4c4b2c203d29ff6075fa4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApplication1.Form1.SetNetIns</definition>
+        <argsstring>(Double text)</argsstring>
+        <name>SetNetIns</name>
+        <param>
+          <type>Double</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>metodo auxiliar para actualizar interfaz de usuario. verifica si fue invocada por otro thread y de ser asi obtiene la firma del thread de de UX y se invoca a si mismo por medio del delegate actualiza grafica y labels necesarios </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" line="280" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" bodystart="280" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_form1_1ab4551e30a3983e4cc6499644392031fa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApplication1.Form1.SetCpuIdle</definition>
+        <argsstring>(string text)</argsstring>
+        <name>SetCpuIdle</name>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>metodo auxiliar para actualizar interfaz de usuario. verifica si fue invocada por otro thread y de ser asi obtiene la firma del thread de de UX y se invoca a si mismo por medio del delegate actualiza grafica y labels necesarios </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" line="338" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" bodystart="338" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_form1_1adb65597c2b87442b95c7dc6d94c375f2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApplication1.Form1.SetCpuUsage</definition>
+        <argsstring>(Double value)</argsstring>
+        <name>SetCpuUsage</name>
+        <param>
+          <type>Double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>metodo auxiliar para actualizar interfaz de usuario. verifica si fue invocada por otro thread y de ser asi obtiene la firma del thread de de UX y se invoca a si mismo por medio del delegate actualiza grafica y labels necesarios </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" line="369" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" bodystart="369" bodyend="427"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_form1_1acbba509cc5d165c76b692f1178b3eea2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApplication1.Form1.SetDiskReads</definition>
+        <argsstring>(Double text)</argsstring>
+        <name>SetDiskReads</name>
+        <param>
+          <type>Double</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>metodo auxiliar para actualizar interfaz de usuario. verifica si fue invocada por otro thread y de ser asi obtiene la firma del thread de de UX y se invoca a si mismo por medio del delegate actualiza grafica y labels necesarios </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" line="435" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" bodystart="435" bodyend="474"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_form1_1a975e567ecae4c6fd88d1985693ddd09b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApplication1.Form1.SetDiskWrites</definition>
+        <argsstring>(Double text)</argsstring>
+        <name>SetDiskWrites</name>
+        <param>
+          <type>Double</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>metodo auxiliar para actualizar interfaz de usuario. verifica si fue invocada por otro thread y de ser asi obtiene la firma del thread de de UX y se invoca a si mismo por medio del delegate actualiza grafica y labels necesarios </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" line="482" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" bodystart="482" bodyend="522"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_form1_1a63c753b699c00f031a382779197b3dd4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApplication1.Form1.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" line="36" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" bodystart="36" bodyend="441"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_form1_1a634a80ac7348fe429fa032d0edffee00" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void WindowsFormsApplication1.Form1.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" line="14" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.Designer.cs" bodystart="14" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>WindowsFormsApplication1.Form1</label>
+        <link refid="class_windows_forms_application1_1_1_form1"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Form</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>WindowsFormsApplication1.Form1</label>
+        <link refid="class_windows_forms_application1_1_1_form1"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Form</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" line="17" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views/view.cs" bodystart="16" bodyend="629"/>
+    <listofallmembers>
+      <member refid="class_windows_forms_application1_1_1_form1_1a09dbf7277764e4102272a43dd46b0906" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>barGreenStyle</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a6e06a3665b841a7690eba971cbee65da" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>chartCpuActual</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1abfa271bf4478f2b109cd01f1bc8dfc21" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>chartCpuHistory</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1aa33434448af49bf199bd4674cfb40301" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>chartDiskReads</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a8d946768d5518df858db9d5cfad5610a" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>chartDiskWrites</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a863044aa36045a7ddc664102582228ee" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>chartNetIn</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a15c50d8da22d70924edcfbfc8c8bf314" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>chartNetOut</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a4cecda83ccc8db2c252ef5264f1780ee" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>chartRamHistory</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1ab91cc1fb52d8c34a3d2b634487c94656" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>chartRamPie</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a5b7bc61be1de885c089f322f625038db" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>components</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1af1ec7463a818d88cbf71689bbd444ab8" prot="public" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>cpuIdle</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1ae445eb3f9ea10205e542590e77476e47" prot="public" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>cpuUsage</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a99946d55dca3d347b344e9810b15a6d2" prot="public" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>diskReads</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a21165d5313e265bc99107b4bcb60cdad" prot="public" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>diskWrite</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a634a80ac7348fe429fa032d0edffee00" prot="protected" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>Dispose</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a69c9068cd58521646d5e961a8b88a020" prot="public" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>Form1</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1aa994633d76e7d7f578429f57f317897c" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>groupBox1</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a39d2827ec9c98defbce6f0a3f863e3e4" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>groupBox2</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1aae6dc577da23b0fde86656baefedbd44" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>groupBox3</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a447ed25237ebeaec3d0fc67076fde60d" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>groupBox4</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a930cac3edcc2300cfe3265fd30e4af10" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>groupBox5</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a7542d10cefba73037300c0707efb54b0" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>groupBox6</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1ac89e93bbdb86ec6aa740078189787290" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>groupBox7</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1ac2bf92b137d2badcf9106e4a2c95ceb6" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>groupBox8</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a63c753b699c00f031a382779197b3dd4" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>InitializeComponent</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a480f4df27e17619ee951fe82b0bb20f7" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>label1</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1af35525ff61df2457019272af52692644" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>label2</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a5dd90354e0a245150b3f5d0c9f60382b" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>lookAndFeel</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1ad6c6884d7846134ca9a860197d7ea0b6" prot="public" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>netIns</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a50fa7fa857eb7587ab11e7b2c502f240" prot="public" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>netOuts</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a20622d38720576257fb7b44bac9e35f7" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>ramFisicaLbl</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a814b58d3b507f64e90064f5e37ff1e86" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>ramVirtualLbl</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1ab4551e30a3983e4cc6499644392031fa" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>SetCpuIdle</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1adb65597c2b87442b95c7dc6d94c375f2" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>SetCpuUsage</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1acbba509cc5d165c76b692f1178b3eea2" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>SetDiskReads</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a975e567ecae4c6fd88d1985693ddd09b" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>SetDiskWrites</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a6d3124137ad4c4b2c203d29ff6075fa4" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>SetNetIns</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1af0724a14badf457a8d80c7031ceff8d3" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>SetNetOuts</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1afac9f5fe44220f30b2e8ec3750abd874" prot="public" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>SetRamFisica</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a4fda0d42358d44b8d3912a8e4d20e914" prot="public" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>SetRamVirtual</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a84ee00d30fb8ead9638b2d4c3d8ae34e" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>SetTextCallback</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a07d94b283f799dfcd9147ed43a8cb825" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>SetTextCallback2</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a2e16d3064e2c71184752527853176748" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>SetTextCallback3</name></member>
+      <member refid="class_windows_forms_application1_1_1_form1_1a25a7659730529747eea2590a72292a07" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Form1</scope><name>vc</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
