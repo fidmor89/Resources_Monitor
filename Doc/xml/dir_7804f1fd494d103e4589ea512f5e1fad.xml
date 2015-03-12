@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_7804f1fd494d103e4589ea512f5e1fad" kind="dir">
+    <compoundname>/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/obj</compoundname>
+    <innerdir refid="dir_f4e685ee8332c8e258ec773046995965">/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/obj/Debug</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/obj/"/>
+  </compounddef>
+</doxygen>

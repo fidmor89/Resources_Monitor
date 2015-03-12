@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.9.1">
+  <compound refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor" kind="class"><name>WindowsFormsApplication1::Models::cpuMonitor</name>
+    <member refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1aec449c72e0ba3dbcf36da7600bf0c1a6" kind="variable"><name>millisecondsTimeout</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1ae2a28d83f156c532afa518f978541362" kind="variable"><name>viewContext</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1a49152e2a0ef3d9ba5ebb49af1e37bd7a" kind="variable"><name>cpuCounter</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1a77282d47610d6aa7d79dd30c2d6f3f59" kind="variable"><name>threadName</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1aa93e334b10d2ecf00c55e266846467e2" kind="function"><name>cpuMonitor</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1ab10f241a0b2ee431cb44daf3a0f8e972" kind="function"><name>Start</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1ab9b7d5ae64eac03b98d128bb1c42e900" kind="function"><name>GetProcessorData</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1aab14c334780364525ba3b4beee55d0b7" kind="function"><name>Run</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1a6b2ea961cc2c6701b4f1ff5ebdf85e37" kind="function"><name>GetCounterValue</name></member>
+  </compound>
+  <compound refid="class_windows_forms_application1_1_1_models_1_1disk_monitor" kind="class"><name>WindowsFormsApplication1::Models::diskMonitor</name>
+    <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a5e72e797fa7e0095f80d5069b11ae0ec" kind="enum"><name>tipoOperacionDisco</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a5e72e797fa7e0095f80d5069b11ae0eca38ca42a40fd96052406452e916cc22ad" kind="enumvalue"><name>ReadAndWrite</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a5e72e797fa7e0095f80d5069b11ae0eca7a1a5f3e79fdc91edf2f5ead9d66abb4" kind="enumvalue"><name>Read</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a5e72e797fa7e0095f80d5069b11ae0eca1129c0e4d43f2d121652a7302712cff6" kind="enumvalue"><name>Write</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a04f92ee8074675ecb520297b929a49c6" kind="variable"><name>millisecondsTimeout</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1abdaa556ac8470d7e8a6a6423914cf20c" kind="variable"><name>viewContext</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1af821ec00710984ad3b2b7a3333024e0d" kind="variable"><name>_diskReadCounter</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a99377e1a4736af73bdd08b929b33a66a" kind="variable"><name>_diskWriteCounter</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a1d58c8ce597434caab821cd448dc4870" kind="variable"><name>diskReads</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1ad36c4827e4a40f0f07954a2ef44c16d9" kind="variable"><name>diskWrites</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a54ffb433545cf14741efa0889fa87b31" kind="variable"><name>threadName</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a1adc13f29078356113f2688eef9c1d70" kind="function"><name>diskMonitor</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1aea00f90a1d1f844635454060c76133a0" kind="function"><name>Start</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1a3d5bf64d33553c41813a96769b898503" kind="function"><name>GetDiskData</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1af90b94e2e26412e4f8d4cd02cb25ebc4" kind="function"><name>Run</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1disk_monitor_1ad4ddfd29daaa6954f66d3a3428102c09" kind="function"><name>GetCounterValue</name></member>
+  </compound>
+  <compound refid="class_windows_forms_application1_1_1_form1" kind="class"><name>WindowsFormsApplication1::Form1</name>
+    <member refid="class_windows_forms_application1_1_1_form1_1a25a7659730529747eea2590a72292a07" kind="variable"><name>vc</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a5b7bc61be1de885c089f322f625038db" kind="variable"><name>components</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a480f4df27e17619ee951fe82b0bb20f7" kind="variable"><name>label1</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1af35525ff61df2457019272af52692644" kind="variable"><name>label2</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1aa994633d76e7d7f578429f57f317897c" kind="variable"><name>groupBox1</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a39d2827ec9c98defbce6f0a3f863e3e4" kind="variable"><name>groupBox2</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a20622d38720576257fb7b44bac9e35f7" kind="variable"><name>ramFisicaLbl</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a814b58d3b507f64e90064f5e37ff1e86" kind="variable"><name>ramVirtualLbl</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1aae6dc577da23b0fde86656baefedbd44" kind="variable"><name>groupBox3</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a447ed25237ebeaec3d0fc67076fde60d" kind="variable"><name>groupBox4</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1abfa271bf4478f2b109cd01f1bc8dfc21" kind="variable"><name>chartCpuHistory</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a4cecda83ccc8db2c252ef5264f1780ee" kind="variable"><name>chartRamHistory</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1ab91cc1fb52d8c34a3d2b634487c94656" kind="variable"><name>chartRamPie</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a6e06a3665b841a7690eba971cbee65da" kind="variable"><name>chartCpuActual</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a7542d10cefba73037300c0707efb54b0" kind="variable"><name>groupBox6</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a930cac3edcc2300cfe3265fd30e4af10" kind="variable"><name>groupBox5</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1ac2bf92b137d2badcf9106e4a2c95ceb6" kind="variable"><name>groupBox8</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1ac89e93bbdb86ec6aa740078189787290" kind="variable"><name>groupBox7</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1aa33434448af49bf199bd4674cfb40301" kind="variable"><name>chartDiskReads</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a8d946768d5518df858db9d5cfad5610a" kind="variable"><name>chartDiskWrites</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a15c50d8da22d70924edcfbfc8c8bf314" kind="variable"><name>chartNetOut</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a863044aa36045a7ddc664102582228ee" kind="variable"><name>chartNetIn</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1ae445eb3f9ea10205e542590e77476e47" kind="property"><name>cpuUsage</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1af1ec7463a818d88cbf71689bbd444ab8" kind="property"><name>cpuIdle</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a21165d5313e265bc99107b4bcb60cdad" kind="property"><name>diskWrite</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a99946d55dca3d347b344e9810b15a6d2" kind="property"><name>diskReads</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a50fa7fa857eb7587ab11e7b2c502f240" kind="property"><name>netOuts</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1ad6c6884d7846134ca9a860197d7ea0b6" kind="property"><name>netIns</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a69c9068cd58521646d5e961a8b88a020" kind="function"><name>Form1</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a4fda0d42358d44b8d3912a8e4d20e914" kind="function"><name>SetRamVirtual</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1afac9f5fe44220f30b2e8ec3750abd874" kind="function"><name>SetRamFisica</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a5dd90354e0a245150b3f5d0c9f60382b" kind="function"><name>lookAndFeel</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a09dbf7277764e4102272a43dd46b0906" kind="function"><name>barGreenStyle</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a84ee00d30fb8ead9638b2d4c3d8ae34e" kind="function"><name>SetTextCallback</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a2e16d3064e2c71184752527853176748" kind="function"><name>SetTextCallback3</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a07d94b283f799dfcd9147ed43a8cb825" kind="function"><name>SetTextCallback2</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1af0724a14badf457a8d80c7031ceff8d3" kind="function"><name>SetNetOuts</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a6d3124137ad4c4b2c203d29ff6075fa4" kind="function"><name>SetNetIns</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1ab4551e30a3983e4cc6499644392031fa" kind="function"><name>SetCpuIdle</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1adb65597c2b87442b95c7dc6d94c375f2" kind="function"><name>SetCpuUsage</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1acbba509cc5d165c76b692f1178b3eea2" kind="function"><name>SetDiskReads</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a975e567ecae4c6fd88d1985693ddd09b" kind="function"><name>SetDiskWrites</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a63c753b699c00f031a382779197b3dd4" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_windows_forms_application1_1_1_form1_1a634a80ac7348fe429fa032d0edffee00" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_windows_forms_application1_1_1_models_1_1network_monitor" kind="class"><name>WindowsFormsApplication1::Models::networkMonitor</name>
+    <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1a6699b690e9a261ce7d5d0c6508fdee8d" kind="enum"><name>NetData</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1a6699b690e9a261ce7d5d0c6508fdee8da01729bb4d33c9ecd6254ba1140c061f1" kind="enumvalue"><name>ReceivedAndSent</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1a6699b690e9a261ce7d5d0c6508fdee8daac5bb077c33753116b5e91ff1766e7bc" kind="enumvalue"><name>Received</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1a6699b690e9a261ce7d5d0c6508fdee8da7f8c0283f16925caed8e632086b81b9c" kind="enumvalue"><name>Sent</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1a3c5a2b9d535b670b164fd9ae5386eed6" kind="variable"><name>millisecondsTimeout</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1adbd1e1766e1bcd0ee3f37ba777f3eb79" kind="variable"><name>viewContext</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1a2753449661dbe5e9067249b22d6a79a3" kind="variable"><name>instanceNames</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1a77fe360d7f30145e316da55912b7f2f3" kind="variable"><name>_netRecvCounters</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1a592910d8fa34d97cf07e593cddea9cb0" kind="variable"><name>_netSentCounters</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1af353341ae9a6b6e6f0a33b9167012b59" kind="variable"><name>inData</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1ab5749339151c94a58316e4ca569257db" kind="variable"><name>outData</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1a82d0b5f737b02b0e425861816913ae6f" kind="variable"><name>threadName</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1a47394bbe882034e4aa0176447f63ac18" kind="function"><name>networkMonitor</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1a68fc1d2e7fea38e56b414ea25e378d2c" kind="function"><name>Start</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1a16af880c6f9b33ee9c0e8ff119060624" kind="function"><name>Run</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1a8facaf0745a1e4b01e85d5e7db517ada" kind="function"><name>GetNetData</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1network_monitor_1af035163d0906d2575162510106574e46" kind="function"><name>GetCounterValue</name></member>
+  </compound>
+  <compound refid="class_windows_forms_application1_1_1_program" kind="class"><name>WindowsFormsApplication1::Program</name>
+    <member refid="class_windows_forms_application1_1_1_program_1aaf727e6e408dff45c0d434957daec55c" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_windows_forms_application1_1_1_models_1_1ram_monitor" kind="class"><name>WindowsFormsApplication1::Models::ramMonitor</name>
+    <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a287f358e8e649b33ae7558b4e055c600" kind="variable"><name>millisecondsTimeout</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a10045e91f04254b0dd31897364b7d16e" kind="variable"><name>viewContext</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a3974c8300c33dc180242741ffa5e1a3a" kind="variable"><name>_memoryCounter</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a68e10bb7928c83bd45c8acd141335392" kind="variable"><name>virtualMemTotal</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1aeb7764ae9b662fadc1ae375f0e115891" kind="variable"><name>virtualMemWired</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a99ab87532089c42958b5c47f2519c67c" kind="variable"><name>virtualMemPercentage</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a1ecf73c9565ba93d0d47776f0569c611" kind="variable"><name>physicalMemTotal</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1aaa630d5c9564985ae77855f26a67f275" kind="variable"><name>physicalMemWired</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a297d208ea1fc50d3130ca7dff0bbf1e8" kind="variable"><name>physicalMemPercentage</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a0d8c0f684d8684e0c80cc5f1e544df29" kind="variable"><name>threadName</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1ad5a55b438a2b36335689d27cc9661b36" kind="function"><name>ramMonitor</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1aa7fa3d4e01ea1db3c2f8dd355d7ed3e0" kind="function"><name>Start</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a3d8b8c1533e8c901389554b0d511fb16" kind="function"><name>Run</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a2e5964a25dce8d26bcdef33ab3426fd4" kind="function"><name>calcularMemoriaVirtual</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1ad2e0e711481a9e95ec2a4ac0e467e400" kind="function"><name>calcularMemoriaFisica</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a02cc88326085d9143b9b6eb6b6776240" kind="function"><name>GetCounterValue</name></member>
+    <member refid="class_windows_forms_application1_1_1_models_1_1ram_monitor_1a4207b36fea66cac78b1636ed2dd5aa0f" kind="function"><name>QueryComputerSystem</name></member>
+  </compound>
+  <compound refid="class_windows_forms_application1_1_1_properties_1_1_resources" kind="class"><name>WindowsFormsApplication1::Properties::Resources</name>
+    <member refid="class_windows_forms_application1_1_1_properties_1_1_resources_1a647459ddf0a8d56a50483e2bb4c4ee4d" kind="variable"><name>resourceMan</name></member>
+    <member refid="class_windows_forms_application1_1_1_properties_1_1_resources_1a82152847d75fb7f1de20d839ce31ec98" kind="variable"><name>resourceCulture</name></member>
+    <member refid="class_windows_forms_application1_1_1_properties_1_1_resources_1afdaf3e2652c389cf60c79d91775b0454" kind="property"><name>ResourceManager</name></member>
+    <member refid="class_windows_forms_application1_1_1_properties_1_1_resources_1adcce78bfd403c94eac9a8d6902e60c76" kind="property"><name>Culture</name></member>
+    <member refid="class_windows_forms_application1_1_1_properties_1_1_resources_1afaaa339de58126f58114a774a655fc68" kind="function"><name>Resources</name></member>
+  </compound>
+  <compound refid="class_windows_forms_application1_1_1_properties_1_1_settings" kind="class"><name>WindowsFormsApplication1::Properties::Settings</name>
+    <member refid="class_windows_forms_application1_1_1_properties_1_1_settings_1adc011eebc062722c5e9e20ae5af49a38" kind="variable"><name>defaultInstance</name></member>
+    <member refid="class_windows_forms_application1_1_1_properties_1_1_settings_1a623b9ceafdc83e54a2fdba330b244904" kind="property"><name>Default</name></member>
+  </compound>
+  <compound refid="class_windows_forms_application1_1_1_controllers_1_1view_controller" kind="class"><name>WindowsFormsApplication1::Controllers::viewController</name>
+    <member refid="class_windows_forms_application1_1_1_controllers_1_1view_controller_1a2872e4ac68ee11282d4050320dbbe445" kind="variable"><name>cpu</name></member>
+    <member refid="class_windows_forms_application1_1_1_controllers_1_1view_controller_1a49e47ca1f7171c3d448a69e980b606e0" kind="variable"><name>disk</name></member>
+    <member refid="class_windows_forms_application1_1_1_controllers_1_1view_controller_1af62ebc84804a7ee04d8b6f5c38a4ded6" kind="variable"><name>network</name></member>
+    <member refid="class_windows_forms_application1_1_1_controllers_1_1view_controller_1a454403c40c631cf5b0d504b10c6b6110" kind="variable"><name>ram</name></member>
+    <member refid="class_windows_forms_application1_1_1_controllers_1_1view_controller_1a130aae077181af826efe477ab4a8731a" kind="function"><name>viewController</name></member>
+    <member refid="class_windows_forms_application1_1_1_controllers_1_1view_controller_1a0cc480fb7958003e130ddb6a4f42650f" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model" kind="namespace"><name>System::ComponentModel</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_diagnostics" kind="namespace"><name>System::Diagnostics</name>
+  </compound>
+  <compound refid="namespace_system_1_1_drawing" kind="namespace"><name>System::Drawing</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_management" kind="namespace"><name>System::Management</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading" kind="namespace"><name>System::Threading</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_forms" kind="namespace"><name>System::Windows::Forms</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_forms_1_1_data_visualization_1_1_charting" kind="namespace"><name>System::Windows::Forms::DataVisualization::Charting</name>
+  </compound>
+  <compound refid="namespace_windows_forms_application1" kind="namespace"><name>WindowsFormsApplication1</name>
+  </compound>
+  <compound refid="namespace_windows_forms_application1_1_1_controllers" kind="namespace"><name>WindowsFormsApplication1::Controllers</name>
+  </compound>
+  <compound refid="namespace_windows_forms_application1_1_1_models" kind="namespace"><name>WindowsFormsApplication1::Models</name>
+  </compound>
+  <compound refid="namespace_windows_forms_application1_1_1_properties" kind="namespace"><name>WindowsFormsApplication1::Properties</name>
+  </compound>
+  <compound refid="view_controller_8cs" kind="file"><name>viewController.cs</name>
+  </compound>
+  <compound refid="cpu_monitor_8cs" kind="file"><name>cpuMonitor.cs</name>
+  </compound>
+  <compound refid="disk_monitor_8cs" kind="file"><name>diskMonitor.cs</name>
+  </compound>
+  <compound refid="network_monitor_8cs" kind="file"><name>networkMonitor.cs</name>
+  </compound>
+  <compound refid="ram_monitor_8cs" kind="file"><name>ramMonitor.cs</name>
+  </compound>
+  <compound refid="_temporary_generated_file__036_c0_b5_b-1481-4323-8_d20-8_f5_a_d_c_b23_d92_8cs" kind="file"><name>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</name>
+  </compound>
+  <compound refid="_temporary_generated_file__5937a670-0e60-4077-877b-f7221da3dda1_8cs" kind="file"><name>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</name>
+  </compound>
+  <compound refid="_temporary_generated_file___e7_a71_f73-0_f8_d-4_b9_b-_b56_e-8_e70_b10_b_c5_d3_8cs" kind="file"><name>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_resources_8_designer_8cs" kind="file"><name>Resources.Designer.cs</name>
+  </compound>
+  <compound refid="_settings_8_designer_8cs" kind="file"><name>Settings.Designer.cs</name>
+  </compound>
+  <compound refid="view_8cs" kind="file"><name>view.cs</name>
+  </compound>
+  <compound refid="view_8_designer_8cs" kind="file"><name>view.Designer.cs</name>
+  </compound>
+  <compound refid="dir_41bc6481ff5d5dde7302c83c52d31c15" kind="dir"><name>/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Controllers</name>
+  </compound>
+  <compound refid="dir_f4e685ee8332c8e258ec773046995965" kind="dir"><name>/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/obj/Debug</name>
+  </compound>
+  <compound refid="dir_e79a2fb424bcd24fb8a61d345a41192e" kind="dir"><name>/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models</name>
+  </compound>
+  <compound refid="dir_7804f1fd494d103e4589ea512f5e1fad" kind="dir"><name>/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/obj</name>
+  </compound>
+  <compound refid="dir_817ee5830e402b4e4dc170da7f9a0555" kind="dir"><name>/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Properties</name>
+  </compound>
+  <compound refid="dir_bfede09f70b588525a44d7a20388683b" kind="dir"><name>/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Views</name>
+  </compound>
+  <compound refid="dir_1cce0696e289f44bbd562fe5325d5439" kind="dir"><name>/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1</name>
+  </compound>
+  <compound refid="dir_05d00caa35b0bd24714f8deb1b1c0a5f" kind="dir"><name>/Users/fides/Desktop/WindowsFormsApplication1</name>
+  </compound>
+</doxygenindex>

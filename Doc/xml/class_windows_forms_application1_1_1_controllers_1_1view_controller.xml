@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_windows_forms_application1_1_1_controllers_1_1view_controller" kind="class" language="C#" prot="public">
+    <compoundname>WindowsFormsApplication1::Controllers::viewController</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_controllers_1_1view_controller_1a2872e4ac68ee11282d4050320dbbe445" prot="private" static="no" mutable="no">
+        <type><ref refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor" kindref="compound">cpuMonitor</ref></type>
+        <definition>cpuMonitor WindowsFormsApplication1.Controllers.viewController.cpu</definition>
+        <argsstring></argsstring>
+        <name>cpu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Controllers/viewController.cs" line="16" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Controllers/viewController.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_controllers_1_1view_controller_1a49e47ca1f7171c3d448a69e980b606e0" prot="private" static="no" mutable="no">
+        <type><ref refid="class_windows_forms_application1_1_1_models_1_1disk_monitor" kindref="compound">diskMonitor</ref></type>
+        <definition>diskMonitor WindowsFormsApplication1.Controllers.viewController.disk</definition>
+        <argsstring></argsstring>
+        <name>disk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Controllers/viewController.cs" line="17" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Controllers/viewController.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_controllers_1_1view_controller_1af62ebc84804a7ee04d8b6f5c38a4ded6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_windows_forms_application1_1_1_models_1_1network_monitor" kindref="compound">networkMonitor</ref></type>
+        <definition>networkMonitor WindowsFormsApplication1.Controllers.viewController.network</definition>
+        <argsstring></argsstring>
+        <name>network</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Controllers/viewController.cs" line="18" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Controllers/viewController.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_controllers_1_1view_controller_1a454403c40c631cf5b0d504b10c6b6110" prot="private" static="no" mutable="no">
+        <type><ref refid="class_windows_forms_application1_1_1_models_1_1ram_monitor" kindref="compound">ramMonitor</ref></type>
+        <definition>ramMonitor WindowsFormsApplication1.Controllers.viewController.ram</definition>
+        <argsstring></argsstring>
+        <name>ram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Controllers/viewController.cs" line="19" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Controllers/viewController.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_controllers_1_1view_controller_1a130aae077181af826efe477ab4a8731a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WindowsFormsApplication1.Controllers.viewController.viewController</definition>
+        <argsstring>(Form1 context, int refreshTime)</argsstring>
+        <name>viewController</name>
+        <param>
+          <type><ref refid="class_windows_forms_application1_1_1_form1" kindref="compound">Form1</ref></type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>refreshTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Controllers/viewController.cs" line="22" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Controllers/viewController.cs" bodystart="22" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_controllers_1_1view_controller_1a0cc480fb7958003e130ddb6a4f42650f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApplication1.Controllers.viewController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+<para>inicia el thread de cada modelo. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Controllers/viewController.cs" line="33" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Controllers/viewController.cs" bodystart="33" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Controlador de vista <ref refid="class_windows_forms_application1_1_1_form1" kindref="compound">Form1</ref> </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Controllers/viewController.cs" line="15" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Controllers/viewController.cs" bodystart="14" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_windows_forms_application1_1_1_controllers_1_1view_controller_1a2872e4ac68ee11282d4050320dbbe445" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Controllers::viewController</scope><name>cpu</name></member>
+      <member refid="class_windows_forms_application1_1_1_controllers_1_1view_controller_1a49e47ca1f7171c3d448a69e980b606e0" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Controllers::viewController</scope><name>disk</name></member>
+      <member refid="class_windows_forms_application1_1_1_controllers_1_1view_controller_1af62ebc84804a7ee04d8b6f5c38a4ded6" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Controllers::viewController</scope><name>network</name></member>
+      <member refid="class_windows_forms_application1_1_1_controllers_1_1view_controller_1a454403c40c631cf5b0d504b10c6b6110" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Controllers::viewController</scope><name>ram</name></member>
+      <member refid="class_windows_forms_application1_1_1_controllers_1_1view_controller_1a0cc480fb7958003e130ddb6a4f42650f" prot="public" virt="non-virtual"><scope>WindowsFormsApplication1::Controllers::viewController</scope><name>Start</name></member>
+      <member refid="class_windows_forms_application1_1_1_controllers_1_1view_controller_1a130aae077181af826efe477ab4a8731a" prot="public" virt="non-virtual"><scope>WindowsFormsApplication1::Controllers::viewController</scope><name>viewController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

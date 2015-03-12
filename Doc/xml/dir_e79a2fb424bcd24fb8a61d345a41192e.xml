@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="dir_e79a2fb424bcd24fb8a61d345a41192e" kind="dir">
+    <compoundname>/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models</compoundname>
+    <innerfile refid="cpu_monitor_8cs">cpuMonitor.cs</innerfile>
+    <innerfile refid="disk_monitor_8cs">diskMonitor.cs</innerfile>
+    <innerfile refid="network_monitor_8cs">networkMonitor.cs</innerfile>
+    <innerfile refid="ram_monitor_8cs">ramMonitor.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/"/>
+  </compounddef>
+</doxygen>

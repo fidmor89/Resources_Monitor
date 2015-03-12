@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="cpu_monitor_8cs" kind="file" language="C#">
+    <compoundname>cpuMonitor.cs</compoundname>
+    <innerclass refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor" prot="public">WindowsFormsApplication1::Models::cpuMonitor</innerclass>
+    <innernamespace refid="namespace_windows_forms_application1_1_1_models">WindowsFormsApplication1::Models</innernamespace>
+    <innernamespace refid="namespace_system_1_1_threading">System::Threading</innernamespace>
+    <innernamespace refid="namespace_system_1_1_diagnostics">System::Diagnostics</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_system" kindref="compound">System</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_system" kindref="compound">System</ref>.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_system" kindref="compound">System</ref>.Linq;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_system" kindref="compound">System</ref>.Text;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_system" kindref="compound">System</ref>.Threading.Tasks;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_system" kindref="compound">System</ref>.Threading;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_system" kindref="compound">System</ref>.Diagnostics;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="namespace_windows_forms_application1_1_1_models" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_windows_forms_application1" kindref="compound">WindowsFormsApplication1</ref>.Models</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11" refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor" kindref="compound">cpuMonitor</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>millisecondsTimeout;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>String<sp/>threadName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Thread-CPU-Monitor&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_windows_forms_application1_1_1_form1" kindref="compound">Form1</ref><sp/>viewContext;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PerformanceCounter<sp/>cpuCounter<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>PerformanceCounter();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1aa93e334b10d2ecf00c55e266846467e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1aa93e334b10d2ecf00c55e266846467e2" kindref="member">cpuMonitor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>intervalTimeOut,<sp/><ref refid="class_windows_forms_application1_1_1_form1" kindref="compound">Form1</ref><sp/>cte)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.millisecondsTimeout<sp/>=<sp/>intervalTimeOut;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.viewContext<sp/>=<sp/>cte;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1ab10f241a0b2ee431cb44daf3a0f8e972" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1ab10f241a0b2ee431cb44daf3a0f8e972" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Console.WriteLine(</highlight><highlight class="stringliteral">&quot;Starting:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>threadName);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Thread<sp/>newThread<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Thread(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ThreadStart(Run));</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>newThread.Start();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Run()</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Thread.CurrentThread.Name<sp/>=<sp/>threadName;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Console.WriteLine(</highlight><highlight class="stringliteral">&quot;Running:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>Thread.CurrentThread.Name<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;<sp/>ID:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>Thread.CurrentThread.ManagedThreadId);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(!viewContext.IsDisposed)</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Double<sp/>usageP<sp/>=<sp/>this.GetProcessorData();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.viewContext.<ref refid="class_windows_forms_application1_1_1_form1_1ae445eb3f9ea10205e542590e77476e47" kindref="member">cpuUsage</ref><sp/>=<sp/>usageP;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.viewContext.<ref refid="class_windows_forms_application1_1_1_form1_1af1ec7463a818d88cbf71689bbd444ab8" kindref="member">cpuIdle</ref><sp/>=<sp/>100.0<sp/>-<sp/>usageP;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Console.WriteLine(<sp/>threadName<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>usageP);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Thread.Sleep(millisecondsTimeout);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//pausar<sp/>thread<sp/>por<sp/>cierto<sp/>tiempo.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Console.WriteLine(</highlight><highlight class="stringliteral">&quot;Exiting:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>Thread.CurrentThread.Name<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;<sp/>ID:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>Thread.CurrentThread.ManagedThreadId);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1ab9b7d5ae64eac03b98d128bb1c42e900" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Double<sp/><ref refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1ab9b7d5ae64eac03b98d128bb1c42e900" kindref="member">GetProcessorData</ref>()</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Double<sp/>d<sp/>=<sp/>GetCounterValue(cpuCounter,<sp/></highlight><highlight class="stringliteral">&quot;Processor&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;%<sp/>Processor<sp/>Time&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;_Total&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>GetCounterValue(PerformanceCounter<sp/>pc,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>categoryName,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>counterName,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>instanceName)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pc.CategoryName<sp/>=<sp/>categoryName;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pc.CounterName<sp/>=<sp/>counterName;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pc.InstanceName<sp/>=<sp/>instanceName;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pc.NextValue();</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/cpuMonitor.cs"/>
+  </compounddef>
+</doxygen>

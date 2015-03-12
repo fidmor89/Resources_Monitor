@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="class_windows_forms_application1_1_1_models_1_1cpu_monitor" kind="class" language="C#" prot="public">
+    <compoundname>WindowsFormsApplication1::Models::cpuMonitor</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1aec449c72e0ba3dbcf36da7600bf0c1a6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WindowsFormsApplication1.Models.cpuMonitor.millisecondsTimeout</definition>
+        <argsstring></argsstring>
+        <name>millisecondsTimeout</name>
+        <briefdescription>
+<para>tiempo para mandar al thread a sleep en cada ciclo. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/cpuMonitor.cs" line="16" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/cpuMonitor.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1ae2a28d83f156c532afa518f978541362" prot="private" static="no" mutable="no">
+        <type><ref refid="class_windows_forms_application1_1_1_form1" kindref="compound">Form1</ref></type>
+        <definition>Form1 WindowsFormsApplication1.Models.cpuMonitor.viewContext</definition>
+        <argsstring></argsstring>
+        <name>viewContext</name>
+        <briefdescription>
+<para>referencia a la interfaz para acuatilizacion de datos y verificacion cuando esta sea recolectada por el GC </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/cpuMonitor.cs" line="26" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/cpuMonitor.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1a49152e2a0ef3d9ba5ebb49af1e37bd7a" prot="private" static="no" mutable="no">
+        <type>PerformanceCounter</type>
+        <definition>PerformanceCounter WindowsFormsApplication1.Models.cpuMonitor.cpuCounter</definition>
+        <argsstring></argsstring>
+        <name>cpuCounter</name>
+        <initializer>= new PerformanceCounter()</initializer>
+        <briefdescription>
+<para>componente de windows NT para contabilizar el performance de la PC </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/cpuMonitor.cs" line="31" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/cpuMonitor.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1a77282d47610d6aa7d79dd30c2d6f3f59" prot="private" static="yes" mutable="no">
+        <type>String</type>
+        <definition>String WindowsFormsApplication1.Models.cpuMonitor.threadName</definition>
+        <argsstring></argsstring>
+        <name>threadName</name>
+        <initializer>= &quot;Thread-CPU-Monitor&quot;</initializer>
+        <briefdescription>
+<para>nombre del thread </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/cpuMonitor.cs" line="21" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/cpuMonitor.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1aa93e334b10d2ecf00c55e266846467e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WindowsFormsApplication1.Models.cpuMonitor.cpuMonitor</definition>
+        <argsstring>(int intervalTimeOut, Form1 cte)</argsstring>
+        <name>cpuMonitor</name>
+        <param>
+          <type>int</type>
+          <declname>intervalTimeOut</declname>
+        </param>
+        <param>
+          <type><ref refid="class_windows_forms_application1_1_1_form1" kindref="compound">Form1</ref></type>
+          <declname>cte</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>intervalTimeOut</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>tiempo de sleep</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cte</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>referencia al contexto de UX</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/cpuMonitor.cs" line="38" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/cpuMonitor.cs" bodystart="38" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1ab10f241a0b2ee431cb44daf3a0f8e972" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApplication1.Models.cpuMonitor.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+<para>metodo para iniciar el treath crea el nuevo thread y asigna metodo de ejeccucion (run) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/cpuMonitor.cs" line="48" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/cpuMonitor.cs" bodystart="48" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1ab9b7d5ae64eac03b98d128bb1c42e900" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Double</type>
+        <definition>Double WindowsFormsApplication1.Models.cpuMonitor.GetProcessorData</definition>
+        <argsstring>()</argsstring>
+        <name>GetProcessorData</name>
+        <briefdescription>
+<para>wrapper para simplicidad de funcion GetCounterValue </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Double con valor del total del procesador</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/cpuMonitor.cs" line="85" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/cpuMonitor.cs" bodystart="85" bodyend="89"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1aab14c334780364525ba3b4beee55d0b7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WindowsFormsApplication1.Models.cpuMonitor.Run</definition>
+        <argsstring>()</argsstring>
+        <name>Run</name>
+        <briefdescription>
+<para>flujo principal del thread. mientras la vista exista, obtiene la informacion y la muestra. duerme el thread en cada iteracion. si la vista es recolectada por el GC el thread termina. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/cpuMonitor.cs" line="61" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/cpuMonitor.cs" bodystart="61" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1a6b2ea961cc2c6701b4f1ff5ebdf85e37" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double WindowsFormsApplication1.Models.cpuMonitor.GetCounterValue</definition>
+        <argsstring>(PerformanceCounter pc, string categoryName, string counterName, string instanceName)</argsstring>
+        <name>GetCounterValue</name>
+        <param>
+          <type>PerformanceCounter</type>
+          <declname>pc</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>categoryName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>counterName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>instanceName</declname>
+        </param>
+        <briefdescription>
+<para>obtiene el siguiente valor de pc para la categoria, nombre e instancia dadas. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>performacen counter</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>categoryName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nombre de la categoria</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>counterName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>informacion solicitada</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>instanceName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/cpuMonitor.cs" line="99" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/cpuMonitor.cs" bodystart="99" bodyend="105"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/cpuMonitor.cs" line="12" column="1" bodyfile="/Users/fides/Desktop/WindowsFormsApplication1/WindowsFormsApplication1/Models/cpuMonitor.cs" bodystart="11" bodyend="106"/>
+    <listofallmembers>
+      <member refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1a49152e2a0ef3d9ba5ebb49af1e37bd7a" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::cpuMonitor</scope><name>cpuCounter</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1aa93e334b10d2ecf00c55e266846467e2" prot="public" virt="non-virtual"><scope>WindowsFormsApplication1::Models::cpuMonitor</scope><name>cpuMonitor</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1a6b2ea961cc2c6701b4f1ff5ebdf85e37" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::cpuMonitor</scope><name>GetCounterValue</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1ab9b7d5ae64eac03b98d128bb1c42e900" prot="public" virt="non-virtual"><scope>WindowsFormsApplication1::Models::cpuMonitor</scope><name>GetProcessorData</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1aec449c72e0ba3dbcf36da7600bf0c1a6" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::cpuMonitor</scope><name>millisecondsTimeout</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1aab14c334780364525ba3b4beee55d0b7" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::cpuMonitor</scope><name>Run</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1ab10f241a0b2ee431cb44daf3a0f8e972" prot="public" virt="non-virtual"><scope>WindowsFormsApplication1::Models::cpuMonitor</scope><name>Start</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1a77282d47610d6aa7d79dd30c2d6f3f59" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::cpuMonitor</scope><name>threadName</name></member>
+      <member refid="class_windows_forms_application1_1_1_models_1_1cpu_monitor_1ae2a28d83f156c532afa518f978541362" prot="private" virt="non-virtual"><scope>WindowsFormsApplication1::Models::cpuMonitor</scope><name>viewContext</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

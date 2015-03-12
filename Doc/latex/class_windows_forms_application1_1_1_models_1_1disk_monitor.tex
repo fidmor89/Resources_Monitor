@@ -1,0 +1,123 @@
+\hypertarget{class_windows_forms_application1_1_1_models_1_1disk_monitor}{}\section{Windows\+Forms\+Application1.\+Models.\+disk\+Monitor Class Reference}
+\label{class_windows_forms_application1_1_1_models_1_1disk_monitor}\index{Windows\+Forms\+Application1.\+Models.\+disk\+Monitor@{Windows\+Forms\+Application1.\+Models.\+disk\+Monitor}}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_windows_forms_application1_1_1_models_1_1disk_monitor_a5e72e797fa7e0095f80d5069b11ae0ec}{tipo\+Operacion\+Disco} \{ \hyperlink{class_windows_forms_application1_1_1_models_1_1disk_monitor_a5e72e797fa7e0095f80d5069b11ae0eca38ca42a40fd96052406452e916cc22ad}{tipo\+Operacion\+Disco.\+Read\+And\+Write}, 
+\hyperlink{class_windows_forms_application1_1_1_models_1_1disk_monitor_a5e72e797fa7e0095f80d5069b11ae0eca7a1a5f3e79fdc91edf2f5ead9d66abb4}{tipo\+Operacion\+Disco.\+Read}, 
+\hyperlink{class_windows_forms_application1_1_1_models_1_1disk_monitor_a5e72e797fa7e0095f80d5069b11ae0eca1129c0e4d43f2d121652a7302712cff6}{tipo\+Operacion\+Disco.\+Write}
+ \}
+\begin{DoxyCompactList}\small\item\em diccionario para seleccionar tipo de acceso a medir. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_windows_forms_application1_1_1_models_1_1disk_monitor_a1adc13f29078356113f2688eef9c1d70}{disk\+Monitor} (int interval\+Time\+Out, \hyperlink{class_windows_forms_application1_1_1_form1}{Form1} cte)
+\begin{DoxyCompactList}\small\item\em Construcctor de la clase \end{DoxyCompactList}\item 
+void \hyperlink{class_windows_forms_application1_1_1_models_1_1disk_monitor_aea00f90a1d1f844635454060c76133a0}{Start} ()
+\begin{DoxyCompactList}\small\item\em crea un thread y lo inicia \end{DoxyCompactList}\item 
+double \hyperlink{class_windows_forms_application1_1_1_models_1_1disk_monitor_a3d5bf64d33553c41813a96769b898503}{Get\+Disk\+Data} (\hyperlink{class_windows_forms_application1_1_1_models_1_1disk_monitor_a5e72e797fa7e0095f80d5069b11ae0ec}{tipo\+Operacion\+Disco} tipo\+Acceso)
+\begin{DoxyCompactList}\small\item\em funcion para obtener la velodicidad del disco, funciona para lectura, escritura, y lectura/escritura. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 11 of file disk\+Monitor.\+cs.
+
+
+
+\subsection{Member Enumeration Documentation}
+\hypertarget{class_windows_forms_application1_1_1_models_1_1disk_monitor_a5e72e797fa7e0095f80d5069b11ae0ec}{}\index{Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor@{Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor}!tipo\+Operacion\+Disco@{tipo\+Operacion\+Disco}}
+\index{tipo\+Operacion\+Disco@{tipo\+Operacion\+Disco}!Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor@{Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor}}
+\subsubsection[{tipo\+Operacion\+Disco}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Windows\+Forms\+Application1.\+Models.\+disk\+Monitor.\+tipo\+Operacion\+Disco}}\label{class_windows_forms_application1_1_1_models_1_1disk_monitor_a5e72e797fa7e0095f80d5069b11ae0ec}
+
+
+diccionario para seleccionar tipo de acceso a medir. 
+
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{Read\+And\+Write@{Read\+And\+Write}!Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor@{Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor}}\index{Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor@{Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor}!Read\+And\+Write@{Read\+And\+Write}}\item[{\em 
+\hypertarget{class_windows_forms_application1_1_1_models_1_1disk_monitor_a5e72e797fa7e0095f80d5069b11ae0eca38ca42a40fd96052406452e916cc22ad}{}Read\+And\+Write\label{class_windows_forms_application1_1_1_models_1_1disk_monitor_a5e72e797fa7e0095f80d5069b11ae0eca38ca42a40fd96052406452e916cc22ad}
+}]\index{Read@{Read}!Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor@{Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor}}\index{Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor@{Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor}!Read@{Read}}\item[{\em 
+\hypertarget{class_windows_forms_application1_1_1_models_1_1disk_monitor_a5e72e797fa7e0095f80d5069b11ae0eca7a1a5f3e79fdc91edf2f5ead9d66abb4}{}Read\label{class_windows_forms_application1_1_1_models_1_1disk_monitor_a5e72e797fa7e0095f80d5069b11ae0eca7a1a5f3e79fdc91edf2f5ead9d66abb4}
+}]\index{Write@{Write}!Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor@{Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor}}\index{Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor@{Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor}!Write@{Write}}\item[{\em 
+\hypertarget{class_windows_forms_application1_1_1_models_1_1disk_monitor_a5e72e797fa7e0095f80d5069b11ae0eca1129c0e4d43f2d121652a7302712cff6}{}Write\label{class_windows_forms_application1_1_1_models_1_1disk_monitor_a5e72e797fa7e0095f80d5069b11ae0eca1129c0e4d43f2d121652a7302712cff6}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 38 of file disk\+Monitor.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_windows_forms_application1_1_1_models_1_1disk_monitor_a1adc13f29078356113f2688eef9c1d70}{}\index{Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor@{Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor}!disk\+Monitor@{disk\+Monitor}}
+\index{disk\+Monitor@{disk\+Monitor}!Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor@{Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor}}
+\subsubsection[{disk\+Monitor}]{\setlength{\rightskip}{0pt plus 5cm}Windows\+Forms\+Application1.\+Models.\+disk\+Monitor.\+disk\+Monitor (
+\begin{DoxyParamCaption}
+\item[{int}]{interval\+Time\+Out, }
+\item[{{\bf Form1}}]{cte}
+\end{DoxyParamCaption}
+)}\label{class_windows_forms_application1_1_1_models_1_1disk_monitor_a1adc13f29078356113f2688eef9c1d70}
+
+
+Construcctor de la clase 
+
+
+\begin{DoxyParams}{Parameters}
+{\em interval\+Time\+Out} & tiempo para sleep\\
+\hline
+{\em cte} & contexto de interfaz\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 54 of file disk\+Monitor.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_windows_forms_application1_1_1_models_1_1disk_monitor_a3d5bf64d33553c41813a96769b898503}{}\index{Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor@{Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor}!Get\+Disk\+Data@{Get\+Disk\+Data}}
+\index{Get\+Disk\+Data@{Get\+Disk\+Data}!Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor@{Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor}}
+\subsubsection[{Get\+Disk\+Data}]{\setlength{\rightskip}{0pt plus 5cm}double Windows\+Forms\+Application1.\+Models.\+disk\+Monitor.\+Get\+Disk\+Data (
+\begin{DoxyParamCaption}
+\item[{{\bf tipo\+Operacion\+Disco}}]{tipo\+Acceso}
+\end{DoxyParamCaption}
+)}\label{class_windows_forms_application1_1_1_models_1_1disk_monitor_a3d5bf64d33553c41813a96769b898503}
+
+
+funcion para obtener la velodicidad del disco, funciona para lectura, escritura, y lectura/escritura. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tipo\+Acceso} & indica tipo de acceso.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double con informacion solicitada en Bytes/sec
+\end{DoxyReturn}
+
+
+Definition at line 104 of file disk\+Monitor.\+cs.
+
+\hypertarget{class_windows_forms_application1_1_1_models_1_1disk_monitor_aea00f90a1d1f844635454060c76133a0}{}\index{Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor@{Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor}!Start@{Start}}
+\index{Start@{Start}!Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor@{Windows\+Forms\+Application1\+::\+Models\+::disk\+Monitor}}
+\subsubsection[{Start}]{\setlength{\rightskip}{0pt plus 5cm}void Windows\+Forms\+Application1.\+Models.\+disk\+Monitor.\+Start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_windows_forms_application1_1_1_models_1_1disk_monitor_aea00f90a1d1f844635454060c76133a0}
+
+
+crea un thread y lo inicia 
+
+
+
+Definition at line 63 of file disk\+Monitor.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/fides/\+Desktop/\+Windows\+Forms\+Application1/\+Windows\+Forms\+Application1/\+Models/\hyperlink{disk_monitor_8cs}{disk\+Monitor.\+cs}\end{DoxyCompactItemize}
