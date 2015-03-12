@@ -391,16 +391,16 @@ namespace WindowsFormsApplication1
                 {
                     this.label1.Text = "CPU Load: " + value.ToString() + "%";
 
-                    if (this.chartCpuActual.Series["CPU"].Points.Count >1)
+                    if (this.chartCpuActual.Series["CPU"].Points.Count > 1)
                     {
                         this.chartCpuActual.Series["CPU"].Points.RemoveAt(0);
                     }
                     this.chartCpuActual.Series["CPU"].Points.Add(value);
 
-                    
 
 
-                    
+
+
 
 
                     #region Color Barra
